@@ -1,0 +1,30 @@
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+body{
+    background-color: #ffebe8;
+}
+
+.nav-bg{
+    background-color: #F65A83;
+    height: 80px;
+}
+
+.ulmarleft{
+    margin-left: 120px;
+}
+
+.nav-item:hover{
+    background-color: #F65A83;
+    transform: scale(1.1);
+}
+
+.BGimg{
+    background-image: url(../Images/HomePage/hand.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode:overlay;
+    height: 1250px;
+}
