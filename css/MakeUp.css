@@ -29,3 +29,8 @@ body {
 a {
     text-decoration: none;
 }
+
+.card-slide-area{
+padding: 10px;
+border: white 15px solid;
+}
