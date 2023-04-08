@@ -1,0 +1,31 @@
+body {
+    background-color: #ffebe8;
+}
+
+.conatainer-1 {
+    font-family: cursive;
+}
+
+.buttons-container {
+    margin-left: 5px;
+    padding-bottom: 50px;
+
+
+}
+
+.btn-content {
+    margin-left: 20px;
+    border: black 1px solid;
+    text-decoration: none;
+}
+
+.btn-content:hover {
+    border: #e72e77 1px solid;
+    background-color: #e72e77;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+}
