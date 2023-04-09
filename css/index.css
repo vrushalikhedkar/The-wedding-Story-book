@@ -237,10 +237,12 @@ body{
 
 .Partners{
     height: 400px;
-    width: 100%;
     display: block;
     margin-bottom: 20px;
-    background-color: aquamarine;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #F65A83;
 }
 
 .PartHead{
@@ -250,5 +252,9 @@ body{
 }
 
 .PartIMG{
-    
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
 }
