@@ -6,3 +6,31 @@
     border: 2px solid black;
 
 }
+
+#bg-img{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 658px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bg-img::before{
+    content: "";
+    position: absolute;
+    background: url('../Images/Jewellery/banner_new1-new.jpg') no-repeat center center/cover;
+    height: 85vh;
+    top: 170px;
+    left: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1420px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 5px;
+   
+}
+
+
