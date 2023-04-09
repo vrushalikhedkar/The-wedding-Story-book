@@ -33,4 +33,5 @@ a {
 .card-slide-area{
 padding: 10px;
 border: white 15px solid;
+border-radius: 10px;
 }
