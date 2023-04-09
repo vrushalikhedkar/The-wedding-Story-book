@@ -1,0 +1,13 @@
+body {
+    background-color: #ffebe8;
+}
+.carousel-inner{
+    box-shadow: 0 0 10px 2px gray;
+    border-radius: 20px;
+    height: 500px;
+    width: 75;
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 plum;
+}
