@@ -193,3 +193,46 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.DecoRow:hover{
+    transform: scale(1.1);
+}
+
+.DecoRow2:hover{
+    transform: scale(1.1);
+}
+
+.DecoRow3:hover{
+    transform: scale(1.1);
+}
+
+.VendorbBTNRow{
+    display: flex;
+    margin-top: 30px;
+}
+
+.VendorbBTN{
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 600px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color: #F65A83;
+    width: max-content;
+    background-color: #ffebe8;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.VendorbBTN:hover{
+    height: 60px;
+    padding: 5px;
+    width: max-content;
+    color: #ffebe8;
+    background-color: #F65A83;
+    border: 2px solid black;
+    transform: scale(1.1);
+    margin-bottom: 50px;
+}
