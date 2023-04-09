@@ -176,6 +176,7 @@ body{
     margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .DecoRow2{
@@ -184,6 +185,7 @@ body{
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .DecoRow3{
@@ -192,6 +194,7 @@ body{
     margin-right: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .DecoRow:hover{
@@ -257,4 +260,27 @@ body{
     width: 200px;
     margin-left: 80px;
     margin-top: 50px;
+}
+
+.ContRow{
+    height: 600px;
+    background-color: #F65A83;
+    margin: 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.ContactUS{
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 600px;
+    text-align: justify;
+}
+
+.ContactUSInfo{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: serif;
+    
 }
