@@ -156,3 +156,24 @@ body{
     border: 5px solid  black;
 }
 
+.Wedplan:hover{
+    background-color: #ffebe8;
+}
+
+.ChecKwork{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    background-color: #ffebe8;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:dotted
+}
+
+.DecoRow{
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
