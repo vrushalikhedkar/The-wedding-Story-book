@@ -112,4 +112,31 @@ function imgOut11() {
     imgElement.src = "../Images/MakeUpImg/make-up-21.jpeg";
 }
 
+function imgIn12() {
+    const imgElement = document.getElementById("img12");
+    imgElement.src = "../Images/MakeUpImg/sangeet-9.jpeg";
+}
+function imgOut12() {
+    const imgElement = document.getElementById("img12");
+    imgElement.src = "../Images/MakeUpImg/engagement-4.jpg";
+}
+
+function imgIn13() {
+    const imgElement = document.getElementById("img13");
+    imgElement.src = "../Images/MakeUpImg/make-up-4.jpg";
+}
+function imgOut13() {
+    const imgElement = document.getElementById("img13");
+    imgElement.src = "../Images/MakeUpImg/engagement-2.jpg";
+}
+
+function imgIn14() {
+    const imgElement = document.getElementById("img14");
+    imgElement.src = "../Images/MakeUpImg/reception-6.jpg";
+}
+function imgOut14() {
+    const imgElement = document.getElementById("img14");
+    imgElement.src = "../Images/MakeUpImg/engagement-3.jpg";
+}
+
 
