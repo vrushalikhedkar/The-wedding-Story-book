@@ -1,0 +1,33 @@
+body {
+    background-color: #ffebe8;
+}
+
+
+.card-img-top{
+   
+    box-shadow: 3px 3px 3px 2px rgb(114, 110, 110);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+.card-title{
+    color:blueviolet;
+    cursor: pointer;
+
+}
+.head{
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.clr{
+    color: blueviolet;
+}
+.container-md{
+    margin-bottom: 10px;
+}
+
+
+
