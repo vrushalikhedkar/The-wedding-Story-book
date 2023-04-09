@@ -1,13 +1,19 @@
 body {
     background-color: #ffebe8;
 }
+body p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
 .carousel-inner{
-    box-shadow: 0 0 10px 2px gray;
+    box-shadow: 0 0 10px 2px #B270A2;
     border-radius: 20px;
     height: 400px;
     width: 75;
 }
 .card{
     border-radius: 15px;
-    box-shadow: 0 0 10px 0 plum;
+    box-shadow: 0 0 10px 0 #B270A2;
 }
