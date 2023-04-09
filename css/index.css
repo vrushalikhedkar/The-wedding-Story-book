@@ -218,7 +218,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    color: #F65A83;
     width: max-content;
     background-color: #ffebe8;
     border: 2px solid black;
@@ -230,9 +229,26 @@ body{
     height: 60px;
     padding: 5px;
     width: max-content;
-    color: #ffebe8;
     background-color: #F65A83;
     border: 2px solid black;
     transform: scale(1.1);
     margin-bottom: 50px;
+}
+
+.Partners{
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+.PartHead{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.PartIMG{
+    
 }
