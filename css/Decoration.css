@@ -4,7 +4,7 @@ body {
 .carousel-inner{
     box-shadow: 0 0 10px 2px gray;
     border-radius: 20px;
-    height: 500px;
+    height: 400px;
     width: 75;
 }
 .card{
