@@ -110,3 +110,16 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 }
+
+.Row{
+    margin: 40px;
+}
+
+.Destwed{
+    width: 900px;
+}
+
+.Destwed2{
+    width: 400px;
+    margin-left: 80px;
+}
