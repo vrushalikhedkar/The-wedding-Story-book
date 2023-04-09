@@ -123,3 +123,29 @@ body{
     width: 400px;
     margin-left: 80px;
 }
+
+.OurServ{
+    font-family: cursive;
+    text-align: center;
+}
+
+.CardRow{
+    display: flex;
+}
+
+.SideSpace{
+    margin-left: 50px;
+}
+
+.Wedplan{
+    float: left;
+    background-color: #F65A83;
+    width: 450px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.VenBook{
+    margin-left: 35px;
+}
