@@ -33,7 +33,9 @@ https://www.indiatrendshop.com/collections/bridal-sets
 
       <div class="col-md-4">
         <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-          <img src="../Images/Jewellery/bj-1-1.jpg" class="card-img-top " height="500px" width="200px" alt="...">
+          <img src="../Images/Jewellery/bj-1-1.jpg" class="card-img-top"
+           onmouseover="jewelimg11()" onmouseout="jewelimg12()"  id="jewelImg1"
+          height="500px" width="200px" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
 
@@ -46,7 +48,9 @@ https://www.indiatrendshop.com/collections/bridal-sets
 
       <div class="col-md-4">
         <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-          <img src="../Images/Jewellery/bj-2-1.jpg" class="card-img-top " height="500px" width="200px" alt="...">
+          <img src="../Images/Jewellery/bj-2-1.jpg" class="card-img-top " height="500px" width="200px" 
+          onmouseover="jewelimg21()" onmouseout="jewelimg22()"  id="jewelImg2" 
+          alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
 
@@ -58,7 +62,9 @@ https://www.indiatrendshop.com/collections/bridal-sets
 
       <div class="col-md-4">
         <div class="card h-80 shadow-lg p-3 mb-5">
-          <img src="../Images/Jewellery/bj-3-1.jpg" class="card-img-top " height="500px" width="200px" alt="...">
+          <img src="../Images/Jewellery/bj-3-1.jpg" class="card-img-top " height="500px" width="200px" 
+          onmouseover="jewelimg31()" onmouseout="jewelimg32()"  id="jewelImg3"
+          alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
 
@@ -114,6 +120,54 @@ https://www.indiatrendshop.com/collections/bridal-sets
     </div>
   </div>
 
+
+  <script>
+
+
+function jewelimg11()
+{
+  const jewelImg = document.getElementById("jewelImg1")
+  jewelImg.src = "../Images/Jewellery/bj-1-1.jpg"
+}
+
+
+function jewelimg12()
+{
+  const jewelImg = document.getElementById("jewelImg1")
+  jewelImg.src = "../Images/Jewellery/bj-1-2.jpg"
+}
+
+
+
+function jewelimg21()
+{
+  const jewelImg = document.getElementById("jewelImg2")
+  jewelImg.src = "../Images/Jewellery/bj-2-1.jpg"
+}
+
+
+function jewelimg22()
+{
+  const jewelImg = document.getElementById("jewelImg2")
+  jewelImg.src = "../Images/Jewellery/bj-2-2.jpg"
+}
+
+function jewelimg31()
+{
+  const jewelImg = document.getElementById("jewelImg3")
+  jewelImg.src = "../Images/Jewellery/bj-3-1.jpg"
+}
+
+
+function jewelimg32()
+{
+  const jewelImg = document.getElementById("jewelImg3")
+  jewelImg.src = "../Images/Jewellery/bj-3-2.jpg"
+}
+
+
+
+  </script>
 
 </body>
 
