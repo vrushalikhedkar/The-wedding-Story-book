@@ -1,0 +1,112 @@
+*{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+body{
+    background-color: #ffebe8;
+}
+
+.nav-bg{
+    background-color: #F65A83;
+    height: 80px;
+}
+
+.ulmarleft{
+    margin-left: 120px;
+}
+
+.nav-item:hover{
+    background-color: #F65A83;
+    transform: scale(1.1);
+}
+
+.BGimg{
+    background-image: url(../Images/HomePage/hand.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode:overlay;
+    height: 700px;
+    position: scroll;
+    display: flex;
+}
+
+.HandBox{
+    height: 310px;
+    width: 800px;
+    margin-top: 180px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.HandName{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.HandSlogan{
+    font-size: 30px;
+    font-family:'Times New Roman';
+    color: whitesmoke;
+    margin-left: 60px;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.Bridaloutfit{
+    margin-top: 50px;
+    height: 350px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+.VidClass{
+    display: flex;
+    
+}
+
+.video{
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    /* background-color: black; */
+    border: 10px solid #F65A83;
+    box-shadow: 5px 5px 5px 5px black ;
+    /* padding: 10px; */
+    border-radius: 15px;
+}
+
+.Slidesize{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SlideRad{
+    border-radius: 15px;
+    height: 600px;
+}
+
+.HandBox2{
+    height: 100px;
+    width: 600px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
