@@ -17,7 +17,17 @@ body {
     cursor: pointer;
 
 }
+.head{
+    color:blueviolet;
+    cursor: pointer;
+}
 
+.clr{
+    color: blueviolet;
+}
+.container-md{
+    margin-bottom: 10px;
+}
 
 
 
