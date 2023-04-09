@@ -1,19 +1,53 @@
 body {
     background-color: #ffebe8;
 }
-body p{
+
+body p {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: red;
+    color: #F65A83;
 }
-.carousel-inner{
+
+body h3 {
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.carousel-inner {
     box-shadow: 0 0 10px 2px #B270A2;
     border-radius: 20px;
     height: 400px;
     width: 75;
 }
-.card{
+
+.card {
     border-radius: 15px;
     box-shadow: 0 0 10px 0 #B270A2;
+}
+
+.First-card-container {
+    margin-top: 8%;
+}
+
+.second-card-conatainer {
+    margin-top: 5%;
+}
+
+.Third-card-container {
+    margin-top: 5%;
+}
+
+.Fourth-card-container {
+    margin-top: 5%;
+}
+
+.Fifth-card-container {
+    margin-top: 5%;
+}
+
+.Sixth-card-container {
+    margin-top: 5%;
 }
