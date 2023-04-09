@@ -3,7 +3,7 @@
 }
  
 .Jewellery-container{
-    border: 2px solid black;
+   
 
 }
 
@@ -24,8 +24,8 @@
     height: 85vh;
     top: 170px;
     left: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 45px;
+   
     width: 1420px;
     z-index: -1;
     opacity: 1;
