@@ -177,7 +177,19 @@ color: #ff0080;
     background: linear-gradient(97deg, #5f00ff 0%, #cd00ff 50%, #fb2091 100%);
     color: #fff;
     cursor: pointer;
+}
 
+.container  .page form #btn2{
+    margin: 20px 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 0;
+    background: linear-gradient(97deg, #5f00ff 0%, #cd00ff 50%, #fb2091 100%);
+    color: #fff;
+    cursor: pointer;
 }
 
 .container  .page form .switch{
