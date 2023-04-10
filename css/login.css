@@ -118,4 +118,25 @@ input[type="checkbox"]{
     transition: 0.1s ease;
 }
 
-.container  .page form .entryarea .labelline
+.container  .page form .entryarea .labelline{
+    position: absolute;
+    font-size: 1.2em;
+    margin: 0.20px;
+    padding: 0.5px;
+    color: #888;
+    background-color: #0e1734;
+    transition: 0.2s ease;
+}
+
+.container  .page form .entryarea input:focus,
+.container  .page form .entryarea input:valid{
+    color: #ff0080;
+    border: 3px solid #ff0080;
+}
+
+
+.container  .page form .entryarea input:focus + .labelline,
+.container  .page form .entryarea input:valid + .labelline{
+    color: #ff0080;
+
+}
