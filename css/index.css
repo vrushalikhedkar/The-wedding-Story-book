@@ -199,14 +199,17 @@ body{
 
 .DecoRow:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow2:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow3:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .VendorbBTNRow{
@@ -323,4 +326,5 @@ body{
     width: 500px;
     border-radius: 15px;
     background-color: #ffebe8;
+    text-align: top;
 }
