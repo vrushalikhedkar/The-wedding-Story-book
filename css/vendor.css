@@ -1,0 +1,30 @@
+
+.card-img{
+    height: 600px;
+  }
+  .card-title{
+    text-align: center;
+    font-style:bold;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  .card-text{
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  .DecoRow{
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #B270A2;
+    border-radius: 20px;
+    height: 400px;
+    width: 75;
+}
+    .h3{
+        text-align: center;
+    }
