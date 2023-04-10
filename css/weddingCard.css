@@ -13,20 +13,26 @@ body {
 
 
 .card-title{
-    color:blueviolet;
+    color:black;
     cursor: pointer;
 
 }
+
 .head{
     color:blueviolet;
     cursor: pointer;
 }
 
 .clr{
-    color: blueviolet;
+    color:black;
 }
+
 .container-md{
     margin-bottom: 10px;
+}
+
+.card{
+    border-radius: 15px;
 }
 
 
