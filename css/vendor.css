@@ -1,4 +1,5 @@
 
+
 .card-img{
     height: 600px;
   }
@@ -13,18 +14,76 @@
     font-size: 25px;
     
   }
-  .DecoRow{
-    height: 350px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px 2px #B270A2;
-    border-radius: 20px;
-    height: 400px;
-    width: 75;
-}
-    .h3{
-        text-align: center;
-    }
+  
+    .vendor-list {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .vendor .vendor-row {
+      max-width: 1300px;
+      background: rgb(245, 236, 245);
+      height: 35rem;
+      flex: 1 1 30rem;
+      padding: 1.2rem;
+      margin: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 .2rem .5rem rgb(236, 68, 90);
+  }
+  
+  .vendor-row:hover {
+      transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+      transform: rotate(5deg);
+  }
+  .btn{
+    margin-left: 20px;
+    border: black 1px solid;
+    text-decoration: none;
+  }
+  .btn:hover{
+    border: #e72e77 1px solid;
+    background-color: #e72e77;
+    color: black;
+  }
+  
+  .vendor-row .rate {
+      width: 6rem;
+      padding: .5rem .1rem;
+      color: #000;
+      border: none;
+      background: var(--clr6);
+      font-size: 1.6rem;
+      font-weight: 400;
+  }
+  
+  .vendor .vendor-row img {
+      height: 20rem;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .vendor-row h2 {
+      font-size: 2rem;
+      font-weight: 600;
+  }
+  
+  .vendor-row p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: var(--clr4);
+  }
+  
+  .vendor h3 {
+      font-size: 2rem;
+      color: var(clr2);
+      background: var(--clr4);
+  }
+  .social-media-img {
+    height: 40px;
+    text-align: center;
+    align-items: center;
+
+    padding-top: 9px;}
+ 
