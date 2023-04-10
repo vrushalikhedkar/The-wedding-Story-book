@@ -199,14 +199,17 @@ body{
 
 .DecoRow:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow2:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow3:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .VendorbBTNRow{
@@ -309,7 +312,7 @@ body{
 }
 
 .Contlabel{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .ContInput{
@@ -323,4 +326,26 @@ body{
     width: 500px;
     border-radius: 15px;
     background-color: #ffebe8;
+    text-align: left;
+    align-items: start;
+}
+
+.SubmitDiv{
+   
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubmitBTN{
+    background-color: #ffebe8;
+    padding: 5px;
+    font-size: large;
+    width: 150px;
+    font-weight: 600;
+}
+
+.SubmitBTN:hover{
+    background-color: #F65A83;
 }
