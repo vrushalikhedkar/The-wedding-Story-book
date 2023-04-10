@@ -199,14 +199,17 @@ body{
 
 .DecoRow:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow2:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .DecoRow3:hover{
     transform: scale(1.1);
+    transition:1s ease;
 }
 
 .VendorbBTNRow{
@@ -263,11 +266,13 @@ body{
 }
 
 .ContRow{
-    height: 600px;
-    background-color: #F65A83;
+    height: 500px;
+    background-color: #ffebe8;
     margin: 25px;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px #F65A83;;
 }
 
 .ContactUS{
@@ -283,4 +288,64 @@ body{
     font-weight: 600;
     font-family: serif;
     
+}
+
+.ContIcon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    
+}
+
+.InfoIcon{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.ContForm{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Contlabel{
+    margin-top: 20px;
+}
+
+.ContInput{
+    width: 500px;
+    border-radius: 5px;
+    background-color: #ffebe8;
+}
+
+.ContInput2{
+    height: 150px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #ffebe8;
+    text-align: left;
+    align-items: start;
+}
+
+.SubmitDiv{
+   
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubmitBTN{
+    background-color: #ffebe8;
+    padding: 5px;
+    font-size: large;
+    width: 150px;
+    font-weight: 600;
+}
+
+.SubmitBTN:hover{
+    background-color: #F65A83;
 }
