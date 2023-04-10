@@ -263,11 +263,13 @@ body{
 }
 
 .ContRow{
-    height: 600px;
-    background-color: #F65A83;
+    height: 500px;
+    background-color: #ffebe8;
     margin: 25px;
     border-radius: 25px;
     margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px #F65A83;;
 }
 
 .ContactUS{
@@ -283,4 +285,9 @@ body{
     font-weight: 600;
     font-family: serif;
     
+}
+
+.ContIcon{
+    height: 30px;
+    width: 30px;
 }
