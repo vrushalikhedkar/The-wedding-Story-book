@@ -267,7 +267,7 @@ body{
     background-color: #ffebe8;
     margin: 25px;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 50px;
     border: 2px solid black;
     box-shadow: 2px 2px 2px 2px #F65A83;;
 }
@@ -298,4 +298,29 @@ body{
     font-size: 15px;
     color: black;
     font-weight: 600;
+}
+
+.ContForm{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Contlabel{
+    margin-top: 30px;
+}
+
+.ContInput{
+    width: 500px;
+    border-radius: 5px;
+    background-color: #ffebe8;
+}
+
+.ContInput2{
+    height: 150px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #ffebe8;
 }
