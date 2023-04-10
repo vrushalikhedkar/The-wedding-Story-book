@@ -19,13 +19,16 @@ body h3 {
 .carousel-inner {
     box-shadow: 0 0 10px 2px #B270A2;
     border-radius: 20px;
-    height: 400px;
+    height: 550px;
     width: 75;
+    cursor: pointer;
 }
+
 
 .card {
     border-radius: 15px;
     box-shadow: 0 0 10px 0 #B270A2;
+  
 }
 
 .First-card-container {
