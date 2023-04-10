@@ -290,4 +290,12 @@ body{
 .ContIcon{
     height: 30px;
     width: 30px;
+    margin-top: 15px;
+    
+}
+
+.InfoIcon{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
 }
