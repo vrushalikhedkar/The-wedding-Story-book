@@ -77,7 +77,7 @@ body{
 .video{
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 600px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -109,4 +109,178 @@ body{
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
+}
+
+.Row{
+    margin: 40px;
+}
+
+.Destwed{
+    width: 900px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+    border: 10px solid #F65A83;
+}
+
+.Destwed2{
+    width: 400px;
+    margin-left: 80px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+    border: 10px solid #F65A83;
+}
+
+.OurServ{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.CardRow{
+    display: flex;
+}
+
+.SideSpace{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.Wedplan{
+    background-color: #F65A83;
+    width: 450px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    border: 5px solid  black;
+}
+
+.Wedplan:hover{
+    background-color: #ffebe8;
+}
+
+.ChecKwork{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    background-color: #ffebe8;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:dotted
+}
+
+.DecoRow{
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.DecoRow2{
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.DecoRow3{
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.DecoRow:hover{
+    transform: scale(1.1);
+}
+
+.DecoRow2:hover{
+    transform: scale(1.1);
+}
+
+.DecoRow3:hover{
+    transform: scale(1.1);
+}
+
+.VendorbBTNRow{
+    display: flex;
+    margin-top: 30px;
+}
+
+.VendorbBTN{
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 600px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: max-content;
+    background-color: #ffebe8;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.VendorbBTN:hover{
+    height: 60px;
+    padding: 5px;
+    width: max-content;
+    background-color: #F65A83;
+    border: 2px solid black;
+    transform: scale(1.1);
+    margin-bottom: 50px;
+}
+
+.Partners{
+    height: 400px;
+    display: block;
+    margin-bottom: 20px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #F65A83;
+}
+
+.PartHead{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.PartIMG{
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.ContRow{
+    height: 600px;
+    background-color: #F65A83;
+    margin: 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.ContactUS{
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    width: 600px;
+    text-align: justify;
+}
+
+.ContactUSInfo{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: serif;
+    
 }
