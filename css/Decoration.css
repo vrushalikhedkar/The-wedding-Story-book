@@ -1,13 +1,14 @@
 body {
     background-color: #ffebe8;
-   
-}
-.top-heading{
-    color: #F65A83;
-    margin: 20px;
 
 }
-.slide-bar-title{
+
+.top-heading {
+    color: #F65A83;
+    margin: 30px;
+}
+
+.slide-bar-title {
     font-size: 45px;
     font-weight: bold;
     color: white;
@@ -41,7 +42,7 @@ body h3 {
 .card {
     border-radius: 15px;
     box-shadow: 0 0 10px 0 #B270A2;
-  
+
 }
 
 .First-card-container {
@@ -67,12 +68,16 @@ body h3 {
 .Sixth-card-container {
     margin-top: 5%;
 }
-.inner{
+
+.inner {
     overflow: hidden;
 }
-.inner img{
+
+.inner img {
     transition: all 1.5s ease;
 }
-.inner:hover img{
-     transform: scale(1.5);       /* scale = increase the size of image */
+
+.inner:hover img {
+    transform: scale(1.5);
+    /* scale = increase the size of image */
 }

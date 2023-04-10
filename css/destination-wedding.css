@@ -1,20 +1,33 @@
 body{
     background-color: #ffebe8;
 }
+.Destination-btn{
+    color: black;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #FFE5F1;
+}
+.Destination-btn:hover{
+    background-color: #F65A83;
+}
 .card-text{
     text-align: center;
     font-size:25px;
-    color: #7AA874;
+    color: #F65A83;
+    font-weight: bold;
 }
 .card{
     border-radius: 15px;
-    box-shadow: 0 0 7px 0px #609966;
+    box-shadow: 0 0 7px 0px #B270A2;
 }
 
 .container-title{
     font-size: 50px;
-    color: #837FAE;
+    color: #F65A83;
     text-align: center;
+    margin: 30px;
     font-family:Brush script MT , Brush Script Std, cursive;
 }
 .inner{
