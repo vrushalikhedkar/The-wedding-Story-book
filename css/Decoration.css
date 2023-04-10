@@ -3,6 +3,11 @@ body {
    
 }
 
+.slide-bar-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 
 body p {
     font-size: 20px;
