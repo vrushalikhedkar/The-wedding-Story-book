@@ -1,0 +1,28 @@
+body{
+    background-color: #ffebe8;
+}
+.card-text{
+    text-align: center;
+    font-size:25px;
+    color: #7AA874;
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0px #609966;
+}
+
+.container-title{
+    font-size: 50px;
+    color: #837FAE;
+    text-align: center;
+    font-family:Brush script MT , Brush Script Std, cursive;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+     transform: scale(1.5);       /* scale = increase the size of image */
+}

@@ -2,7 +2,11 @@ body {
     background-color: #ffebe8;
    
 }
+.top-heading{
+    color: #F65A83;
+    margin: 20px;
 
+}
 .slide-bar-title{
     font-size: 45px;
     font-weight: bold;
