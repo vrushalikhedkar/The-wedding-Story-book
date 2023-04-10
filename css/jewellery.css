@@ -33,4 +33,11 @@
    
 }
 
+.Slidesize{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
