@@ -11,11 +11,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg fixed-top ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <!-- <a class="navbar-brand" href="#">
         <img src="./Images/HomePage/LOGO.png" alt="TheWeddingStoryBook" width="80" height="80">
-      </a>
+      </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -91,81 +91,87 @@
   </section>
   <div>
     <a href="./pages/Bride-Groom-Cloth.html">
-      <img src="./Images/HomePage/Bridaloutfit.webp" alt="Bride-Groom-Cloth" class="Bridaloutfit">
+      <img src="./Images/HomePage/Bridaloutfit.webp" alt="Bride-Groom-Cloth" class="Bridaloutfit col-lg-11 ms-12 me-5 mt-5 col-sm-11 ms-5 me-5 mt-5 col-md-11 ms-5 me-5 mt-5 col-xs-11 ms-5 me-5 mt-5">
     </a>
   </div>
   <div class="VidClass">
-    <video autoplay loop muted plays-inline class="video">
+    <video autoplay loop muted plays-inline class="video col-lg-8 col-sm-8 col-md-8 col-xs-8 mt-5 mb-5 ms-5" >
       <source src="./Images/HomePage/wed video.mp4" type="video/mp4">
     </video>
   </div>
 
-  <div id="carouselExampleCaptions" class="carousel slide Slidesize">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-        aria-label="Slide 4"></button>
+  <div class="Slidesize">
+    <div id="carouselExampleCaptions" class="carousel slide col-lg-8 mt-5 ms-5 col-md-8 mt-5 ms-5 col-sm-8 mt-5 ms-5 col-xs-8 mt-5 ms-5 ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="./pages/Photo-gallery.html">
+            <img src="./Images/HomePage/Photo Gallary.jpg" class="d-block w-100 SlideRad" alt="Photo Gallary">
+            <div class="carousel-caption d-none d-md-block HandBox2">
+              <h5>Photo Gallary</h5>
+              <p>A Day Without Photography Is Like A Day Without Sunshine.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="./pages/MakeUp.html">
+            <img src="./Images/HomePage/MakeUp.jpg" class="d-block w-100 SlideRad" alt="MakeUp">
+            <div class="carousel-caption d-none d-md-block HandBox2">
+              <h5>Bridal Makeup</h5>
+              <p>On your wedding day, you should look like yourself at your most beautiful</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="./pages/Jewellery.html">
+            <img src="./Images/HomePage/Jewellary.jpg" class="d-block w-100 SlideRad" alt="Jewellary">
+            <div class="carousel-caption d-none d-md-block HandBox2">
+              <h5>Bridal Jewellary</h5>
+              <p>Jewellary is a lot like love; it's a good idea but expensive.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="./pages/Halls.html">
+            <img src="./Images/HomePage/Lawns.jpg" class="d-block w-100 SlideRad" alt="Lawns">
+            <div class="carousel-caption d-none d-md-block HandBox2">
+              <h5>Wedding Halls</h5>
+              <p>A place where you meet your dream partner</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev active" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next active" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="./pages/Photo-gallery.html">
-          <img src="./Images/HomePage/Photo Gallary.jpg" class="d-block w-100 SlideRad" alt="Photo Gallary">
-          <div class="carousel-caption d-none d-md-block HandBox2">
-            <h5>Photo Gallary</h5>
-            <p>A Day Without Photography Is Like A Day Without Sunshine.</p>
-          </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="./pages/MakeUp.html">
-          <img src="./Images/HomePage/MakeUp.jpg" class="d-block w-100 SlideRad" alt="MakeUp">
-          <div class="carousel-caption d-none d-md-block HandBox2">
-            <h5>Bridal Makeup</h5>
-            <p>On your wedding day, you should look like yourself at your most beautiful</p>
-          </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="./pages/Jewellery.html">
-          <img src="./Images/HomePage/Jewellary.jpg" class="d-block w-100 SlideRad" alt="Jewellary">
-          <div class="carousel-caption d-none d-md-block HandBox2">
-            <h5>Bridal Jewellary</h5>
-            <p>Jewellary is a lot like love; it's a good idea but expensive.</p>
-          </div>
-        </a>
-      </div>
-      <div class="carousel-item">
-        <a href="./pages/Halls.html">
-          <img src="./Images/HomePage/Lawns.jpg" class="d-block w-100 SlideRad" alt="Lawns">
-          <div class="carousel-caption d-none d-md-block HandBox2">
-            <h5>Wedding Halls</h5>
-            <p>A place where you meet your dream partner</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <button class="carousel-control-prev active" type="button" data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next active" type="button" data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  <div class="Row">
+
+
+  <div class="Row m-5 p-1">
     <div>
-      <img src="./Images/HomePage/Destwed.jpg" class="Destwed" alt="Rajwada" >
-      <img src="./Images/HomePage/DestWed2.jpg" class="Destwed2" alt="Rajwada" >
+      <img src="./Images/HomePage/Destwed.jpg" class="Destwed col-lg-8 me-5 col-sm-8 me-5 col-md-8 me-5 col-xs-8 me-2" alt="Rajwada" >
+      <img src="./Images/HomePage/DestWed2.jpg" class="Destwed2 col-lg-3 col-sm-3 col-md-3 col-xs-3 mt-3" alt="Rajwada" >
     </div>
   </div>
+
+
   <div>
     <h3 class="OurServ">Our Core Services</h3>
   </div>
@@ -333,9 +339,155 @@
         </button>
       </div>
       
-    </div>
-            
+    </div>        
   </div>
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="bg-primary text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="./Images/HomePage/.png" height="70" alt=""
+                 loading="lazy" />
+            
+          </div>
+          <h2 class="LogoName">The Wedding<br>
+            Story Book</h2>
+
+          <p class="text-center2">"From Dreams To Reality: Let Us Plan Your Wedding"</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Our Services</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="./pages/Decoration.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Decoration
+              <img src="./Images/HomePage/DecoIcon.png" class="Icons" >
+            </a>
+            </li>
+            <li class="mb-2">
+              <a href="./pages/Destination-Wedding.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Destination Wedding
+                <img src="./Images/HomePage/DestIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="./pages/Photo-gallery.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Photo Gallery
+                <img src="./Images/HomePage/PhotIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="./pages/MakeUp.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Makeup
+                <img src="./Images/HomePage/MakeIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="./pages/Jewellery.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Jewellary
+                <img src="./Images/HomePage/jwelIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="./pages/Bride-Groom-Cloth.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Bride Clothes
+                <IMG src="./Images/HomePage/BRIDiCON.png" class="Icons" >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Our Services</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Vendors
+                <img src="./Images/HomePage/VendIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Halls & Lawns
+                <img src="./Images/HomePage/hallIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>E-Invites</a>
+              <img src="./Images/HomePage/InviIcon.png" class="Icons" >
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>About Us
+                <img src="./Images/HomePage/AbouIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Home
+                <img src="./Images/HomePage/HomeIcon.png" class="Icons" >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 33 Street, Nagpur</p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pe-2"></i>+ (555) 123-4567</p>
+            </li>
+            <li>
+              <p><i class="fas fa-envelope pe-2 mb-0"></i>info@weddingstorybook.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">theweddingplanning.netlify.app</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->
   
   
 
