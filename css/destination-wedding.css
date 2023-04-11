@@ -1,6 +1,23 @@
 body{
     background-color: #ffebe8;
 }
+.navbar{
+    background-color: #F65A83;
+}
+
+.ulmarleft{
+    margin-left: 80px;
+}
+
+.nav-item:hover{
+    background-color: #F65A83;
+    transform: scale(1.1);
+}
+
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
 .Destination-btn{
     color: black;
     width: 100px;
@@ -41,13 +58,10 @@ body{
     transform: scale(1.3);       /* scale = increase the size of image */
 }
 .horizontal-card{
-    margin-top: 60px;
-    width: 75%;
-    height: 450px;
-    border-radius: 10px;
-    background-color: #f69fa6;
-    margin-left: 170px;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .img{
     height: 450px;
@@ -76,6 +90,7 @@ body{
     font-size: 18px;
     font-size: 18px;
 }
+
 .horizontal-card-2{
     margin-top: 60px;
     width: 75%;
