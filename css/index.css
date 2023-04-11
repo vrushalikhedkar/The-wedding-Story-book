@@ -12,7 +12,7 @@ body{
 }
 
 .ulmarleft{
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .nav-item:hover{
@@ -20,11 +20,15 @@ body{
     transform: scale(1.1);
 }
 
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
+
 .BGimg{
     background-image: url(../Images/HomePage/hand.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-blend-mode:overlay;
     height: 700px;
     position: scroll;
     display: flex;
@@ -32,19 +36,19 @@ body{
 
 .HandBox{
     height: 310px;
-    width: 800px;
+    width: 750px;
     margin-top: 180px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
 
 .HandName{
     font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: #ffebe8;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -53,7 +57,7 @@ body{
 .HandSlogan{
     font-size: 30px;
     font-family:'Times New Roman';
-    color: whitesmoke;
+    color: #ffebe8;
     margin-left: 60px;
     margin-top: 100px;
     padding: 15px;

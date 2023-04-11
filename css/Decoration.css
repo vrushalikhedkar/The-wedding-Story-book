@@ -6,6 +6,8 @@ body {
 .top-heading {
     color: #F65A83;
     margin: 30px;
+    font-family:Brush script MT , Brush Script Std, cursive;
+    font-size: 55px;
 }
 
 .slide-bar-title {
@@ -30,12 +32,13 @@ body h3 {
 }
 
 
-.carousel-inner {
-    box-shadow: 0 0 10px 2px #B270A2;
+.slide-size{
+    width: 75%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    height: 550px;
-    width: 75;
-    cursor: pointer;
+    box-shadow: 0 0 10px 2px #B270A2;
 }
 
 
