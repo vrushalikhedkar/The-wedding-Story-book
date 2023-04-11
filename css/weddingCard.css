@@ -13,7 +13,7 @@ body {
 
 
 .card-title{
-    color:black;
+    color: #e72e77;
     cursor: pointer;
 
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .clr{
-    color:black;
+    color: #e72e77;
 }
 
 .container-md{
@@ -33,7 +33,13 @@ body {
 
 .card{
     border-radius: 15px;
+    
 }
 
+.img1{
+    height: 200px;
+    width: 150px;
+    padding: 5px;
+}
 
 
