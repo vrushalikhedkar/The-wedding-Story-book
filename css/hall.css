@@ -11,9 +11,10 @@
 
 
 .top-heading {
-    color: #F65A83;
-    margin: 30px;
-    text-align: center;
+    font-size: 50px;
+  color: #F653A8;
+  text-align: center;
+  margin: 40px;
 }
 
 .carousel-inner {
@@ -103,3 +104,8 @@
     background-color: #e72e77;
     color: black;
   }
+  .heading2{font-size: 50px;
+  color: #F653A8;
+  text-align: center;
+  margin: 40px;
+  ;}
