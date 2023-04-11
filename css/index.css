@@ -12,7 +12,7 @@ body{
 }
 
 .ulmarleft{
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .nav-item:hover{
@@ -20,11 +20,15 @@ body{
     transform: scale(1.1);
 }
 
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
+
 .BGimg{
     background-image: url(../Images/HomePage/hand.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-blend-mode:overlay;
     height: 700px;
     position: scroll;
     display: flex;
@@ -32,19 +36,19 @@ body{
 
 .HandBox{
     height: 310px;
-    width: 800px;
+    width: 750px;
     margin-top: 180px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
 
 .HandName{
     font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: #ffebe8;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -53,50 +57,42 @@ body{
 .HandSlogan{
     font-size: 30px;
     font-family:'Times New Roman';
-    color: whitesmoke;
+    color: #ffebe8;
     margin-left: 60px;
     margin-top: 100px;
     padding: 15px;
 }
 
-.Bridaloutfit{
+/* .Bridaloutfit{
     margin-top: 50px;
     height: 350px;
     display: flex;
     padding-top: 50px;
     padding-bottom: 5px;
     margin: auto;
-}
+} */
 
 .VidClass{
-    display: flex;
-    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .video{
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-    margin: auto;
-    margin-top: 50px;
     margin-bottom: 100px;
-    /* background-color: black; */
     border: 10px solid #F65A83;
     box-shadow: 5px 5px 5px 5px black ;
-    /* padding: 10px; */
     border-radius: 15px;
 }
 
 .Slidesize{
-    width: 70%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .SlideRad{
     border-radius: 15px;
-    height: 600px;
 }
 
 .HandBox2{
@@ -111,19 +107,18 @@ body{
 }
 
 .Row{
-    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Destwed{
-    width: 900px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px black;
     border: 10px solid #F65A83;
 }
 
 .Destwed2{
-    width: 400px;
-    margin-left: 80px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px black;
     border: 10px solid #F65A83;
@@ -147,6 +142,7 @@ body{
 
 .Wedplan{
     background-color: #F65A83;
+    color: whitesmoke;
     width: 450px;
     padding: 15px;
     font-size: 20px;
@@ -157,6 +153,7 @@ body{
 
 .Wedplan:hover{
     background-color: #ffebe8;
+    color: black;
 }
 
 .ChecKwork{
@@ -304,7 +301,7 @@ body{
 
 .ContForm{
     float: right;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 20px;
     font-size: 15px;
     font-weight: 600;
@@ -347,4 +344,19 @@ body{
 
 .SubmitBTN:hover{
     background-color: #F65A83;
+}
+
+.LogoName{
+    margin-left: 60px;
+}
+
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.container{
+    max-height: 400px;
 }
