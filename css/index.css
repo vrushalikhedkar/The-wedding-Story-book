@@ -176,6 +176,7 @@ body{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: 5px solid  black;
+    
 }
 
 .card-body:hover{
@@ -192,44 +193,8 @@ body{
     text-decoration:dotted
 }
 
-.DecoRow{
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
-
-.DecoRow2{
-    height: 250px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
-
-.DecoRow3{
-    height: 250px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
 
 .DecoRow:hover{
-    transform: scale(1.1);
-    transition:1s ease;
-}
-
-.DecoRow2:hover{
-    transform: scale(1.1);
-    transition:1s ease;
-}
-
-.DecoRow3:hover{
     transform: scale(1.1);
     transition:1s ease;
 }
