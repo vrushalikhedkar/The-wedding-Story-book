@@ -10,37 +10,11 @@
 
 
 
-body {
-    background-color: #ffebe8;
-
-}
-
 .top-heading {
     color: #F65A83;
     margin: 30px;
-}
-
-.slide-bar-title {
-    font-size: 45px;
-    font-weight: bold;
-    color: white;
-}
-
-
-body p {
-    font-size: 20px;
-    font-weight: bold;
     text-align: center;
-    color: #F65A83;
 }
-
-body h3 {
-    text-align: center;
-    color: red;
-    font-size: 35px;
-    font-weight: bold;
-}
-
 
 .carousel-inner {
     box-shadow: 0 0 10px 2px #B270A2;
@@ -49,7 +23,6 @@ body h3 {
     width: 75;
     cursor: pointer;
 }
-
 
 .card {
     border-radius: 15px;
@@ -93,3 +66,40 @@ body h3 {
     transform: scale(1.5);
     /* scale = increase the size of image */
 }
+
+.availability form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background: #eee;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.availability form .box{
+    flex: 1 1 20rem;
+}
+
+.availability form .box p{
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.availability form .box .input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+.btn{
+    margin-left: 20px;
+    border: black 1px solid;
+    text-decoration: none;
+  }
+  .btn:hover{
+    border: #e72e77 1px solid;
+    background-color: #e72e77;
+    color: black;
+  }
