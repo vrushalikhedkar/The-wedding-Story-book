@@ -10,13 +10,18 @@ body{
     background-color: #ffebe8;
 }
 
-.nav-bg{
+.NavName{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar{
     background-color: #F65A83;
-    height: 80px;
 }
 
 .ulmarleft{
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .nav-item:hover{
@@ -24,9 +29,14 @@ body{
     transform: scale(1.1);
 }
 
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
+
 .container{
     position: relative;
-    margin-top: 50px;
+    margin-top: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
