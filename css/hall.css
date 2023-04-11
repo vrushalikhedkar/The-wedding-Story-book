@@ -1,46 +1,95 @@
-.home{
-    padding: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+    
+
+
+
+
+
+
+
+
+body {
+    background-color: #ffebe8;
+
 }
 
-.home .slide{
-    min-height: 100vh;
-    background-size: cover !important;
-    background-position: center !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
+.top-heading {
+    color: #F65A83;
+    margin: 30px;
 }
 
-.home .slide .content{
-    width: 80rem;
+.slide-bar-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+
+body p {
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
+    color: #F65A83;
 }
 
-.home .slide .content h3{
-    font-size: 4rem;
-    text-transform: uppercase;
-    color: var(--white);
-    line-height: 1.1;
-    padding: 2rem 0;
+body h3 {
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
 }
 
-.swiper-button-next,
-.swiper-button-prev{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    background: var(--white);
-    color: var(--black);
+
+.carousel-inner {
+    box-shadow: 0 0 10px 2px #B270A2;
+    border-radius: 20px;
+    height: 550px;
+    width: 75;
+    cursor: pointer;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover{
-    background: var(--primary);
-    color: var(--white);
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #B270A2;
+
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after{
-    font-size: 2rem;
+.First-card-container {
+    margin-top: 8%;
+}
+
+.second-card-conatainer {
+    margin-top: 5%;
+}
+
+.Third-card-container {
+    margin-top: 5%;
+}
+
+.Fourth-card-container {
+    margin-top: 5%;
+}
+
+.Fifth-card-container {
+    margin-top: 5%;
+}
+
+.Sixth-card-container {
+    margin-top: 5%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+    /* scale = increase the size of image */
 }
