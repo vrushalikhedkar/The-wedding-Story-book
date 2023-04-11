@@ -21,7 +21,8 @@ body {
 
 .top-heading {
     color: #F65A83;
-    margin: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
     font-family:Brush script MT , Brush Script Std, cursive;
     font-size: 55px;
 }
@@ -49,7 +50,6 @@ body h3 {
 
 
 .slide-size{
-    width: 75%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
