@@ -1,0 +1,71 @@
+body {
+    background-color: #ffebe8;
+}
+
+.conatainer-1 {
+    font-family: cursive;
+}
+
+.buttons-container {
+    margin-left: 5px;
+    padding-bottom: 50px;
+
+
+}
+
+.btn-content {
+    margin-left: 20px;
+    border: black 1px solid;
+    text-decoration: none;
+}
+
+.btn-content:hover {
+    border: #e72e77 1px solid;
+    background-color: #e72e77;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-slide-area{
+padding: 10px;
+border: white 15px solid;
+border-radius: 10px;
+}
+
+.image-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ScrollToTop{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.scroll-top{
+    background-color: #ffebe8;
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    position: fixed; 
+    bottom: 10px;
+    border-radius: 20px;
+    z-index: 10;
+    margin-right: 5px;
+}
+
+.scroll-top:hover{
+    background-color: #e72e77;
+    color:white
+    
+}
+
+.last-btn{
+    padding-top: 5px;
+    color:black;
+}
