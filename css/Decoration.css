@@ -6,6 +6,8 @@ body {
 .top-heading {
     color: #F65A83;
     margin: 30px;
+    font-family:Brush script MT , Brush Script Std, cursive;
+    font-size: 55px;
 }
 
 .slide-bar-title {
