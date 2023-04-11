@@ -107,19 +107,18 @@ body{
 }
 
 .Row{
-    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Destwed{
-    width: 900px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px black;
     border: 10px solid #F65A83;
 }
 
 .Destwed2{
-    width: 400px;
-    margin-left: 80px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 5px black;
     border: 10px solid #F65A83;
