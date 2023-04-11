@@ -140,3 +140,11 @@
     padding: 1rem 0;
     line-height: 1.8;
 }
+.aboutimg{
+   
+    transition: all 1.2s ease;
+}
+
+.aboutimg:hover{
+    transform: scale(1.1); /* scale = increase the size of image */
+}
