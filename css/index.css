@@ -63,44 +63,36 @@ body{
     padding: 15px;
 }
 
-.Bridaloutfit{
+/* .Bridaloutfit{
     margin-top: 50px;
     height: 350px;
     display: flex;
     padding-top: 50px;
     padding-bottom: 5px;
     margin: auto;
-}
+} */
 
 .VidClass{
-    display: flex;
-    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .video{
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-    margin: auto;
-    margin-top: 50px;
     margin-bottom: 100px;
-    /* background-color: black; */
     border: 10px solid #F65A83;
     box-shadow: 5px 5px 5px 5px black ;
-    /* padding: 10px; */
     border-radius: 15px;
 }
 
 .Slidesize{
-    width: 70%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .SlideRad{
     border-radius: 15px;
-    height: 600px;
 }
 
 .HandBox2{
@@ -151,6 +143,7 @@ body{
 
 .Wedplan{
     background-color: #F65A83;
+    color: whitesmoke;
     width: 450px;
     padding: 15px;
     font-size: 20px;
@@ -161,6 +154,7 @@ body{
 
 .Wedplan:hover{
     background-color: #ffebe8;
+    color: black;
 }
 
 .ChecKwork{
@@ -308,7 +302,7 @@ body{
 
 .ContForm{
     float: right;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 20px;
     font-size: 15px;
     font-weight: 600;
@@ -351,4 +345,19 @@ body{
 
 .SubmitBTN:hover{
     background-color: #F65A83;
+}
+
+.LogoName{
+    margin-left: 60px;
+}
+
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.container{
+    max-height: 400px;
 }
