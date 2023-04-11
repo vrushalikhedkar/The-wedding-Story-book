@@ -1,9 +1,768 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Photo Gallery</title>
+    <title>Photo-Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/Photo-gallery.css">
+  <script src="../JS/photography.js"></script>
 </head>
 <body>
+    <div class="container">
+        <div class="buttons-container text-center" id="main">
+<!-- 
+            <a href="#wedding">
+              <button type="button" class="btn btn-outline btn-content">Wedding Photo Shoot</button>
+            </a>
+            <a href="#prewedding">
+              <button type="button" class="btn btn-outline btn-content">Pre Wedding Shoot Props</button>
+            </a>
+            <a href="#beachwedding">
+              <button type="button" class="btn btn-outline btn-content">Beach Pre Wedding</button>
+            </a>
+            <a href="#uniquewedding">
+              <button type="button" class="btn btn-outline btn-content">Unique Location</button>
+            </a>
+            <a href="#savethedate">
+              <button type="button" class="btn btn-outline btn-content">Save The Date</button>
+            </a> -->
+      
+      
+          </div>
+
+          <h1 id="photogallary" class="text-center"
+          style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;; color:#e72e77">
+          Photo Gallary</h1>
     
+        <div id="carouselExampleDark" class="carousel carousel-dark slide shadow-lg  ">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    
+          </div>
+
+          <div class="carousel-inner card-slide-area">
+            <!-- 1. -->
+            <div class="carousel-item active mb-5" data-bs-interval="10000">
+              <img src="../Images/Photo-galleryImg/Img-25.jpg" class="d-block w-50 image-block" alt="..."
+                style="border-radius: 20px; ">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#wedding">
+                  <h5 style="color:#e72e77; font-weight: bold;">Wedding Photo Shoot</h5>
+                </a>
+                <h4 style="color:white; font-weight: bold;">Sneh and Jagdeep</h4>
+                <p style="font-weight: bold;">Real Wedding, USA.</p>
+    
+              </div>
+            </div>
+    
+            <!-- 2. -->
+            <div class="carousel-item mb-5" data-bs-interval="2000">
+              <img src="../Images/Photo-galleryImg/prewedding-5.jpg" class="d-block w-50 image-block" alt="..."
+                style="border-radius: 20px;">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#prewedding">
+                  <h5 style="color:#e72e77; font-weight: bold">Pre Wedding Shoot Props</h5>
+                </a>
+                <h4 style="color:white; font-weight: bold;">Siya and Jayesh</h4>
+                <p style="font-weight: bold;">Indoor pre wedding shoot with creative shot.</p>
+              </div>
+            </div>
+            <!-- 3. -->
+            <div class="carousel-item mb-5" data-bs-interval="2000">
+              <img src="../Images/Photo-galleryImg/prewedding-7.jpg" class="d-block w-50 image-block" alt="..."
+                style="border-radius: 20px;">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#beachwedding">
+    
+                  <h5 style="color:#e72e77; font-weight: bold">Beach Pre Wedding</h5>
+                </a>
+                <h4 style="color:white; font-weight: bold;">Mitali and Akshay</h4>
+                <p style="font-weight: bold;color:white;">outdoor pre wedding shoot with creative shot.</p>
+              </div>
+            </div>
+    
+            <!-- 4. -->
+            <div class="carousel-item mb-5" data-bs-interval="2000">
+              <img src="../Images/Photo-galleryImg/prewedding-11.jpg" class="d-block w-50 image-block" alt="..."
+                style="border-radius: 20px;">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#uniquewedding">
+    
+                  <h5 style="color:#e72e77; font-weight: bold">Unique Location</h5>
+                </a>
+                <h4 style="color:white; font-weight: bold;">Gauri and Siddharth</h4>
+                <p style="font-weight: bold;color:white;">unique photo ideas</p>
+              </div>
+            </div>
+    
+            <!-- 5. -->
+            <div class="carousel-item mb-5" data-bs-interval="2000">
+              <img src="../Images/Photo-galleryImg/save-1.jpg" class="d-block  w-50 image-block" alt="..."
+                style="border-radius: 20px;">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="#savethedate">
+    
+                  <h5 style="color:#e72e77">Save The Date</h5>
+                </a>
+                <h4 style="color:white; font-weight: bold;">Safarnama Films</h4>
+                <p style="font-weight: bold;color:white;">Photographers, Delhi NCR</p>
+              </div>
+            </div>
+    
+    
+    
+    
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+        <h2 id="wedding" class="text-center pt-3 pb-3"
+      style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important; color:#e72e77">
+      Wedding Photo Shoot</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-19.jpg" onmouseover="imgIn()" onmouseout="imgOut()"
+            id="img" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kritika & Gaurav</h5>
+            <p class="card-text" style="color:#e72e77">Real Wedding, Raipur</p>
+            <p class="card-text">Couple during their pre wedding shoot</p>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-20.jpg" onmouseover="imgIn1()" onmouseout="imgOut1()" id="img1"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Memoirs Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Jaipur</p>
+            <p class="card-text">Bride and groom posing royal place.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-1.jpg" onmouseover="imgIn2()" onmouseout="imgOut2()" id="img2"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sona Sachdeva Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Delhi NCR</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-3.jpg" onmouseover="imgIn3()" onmouseout="imgOut3()" id="img3"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Naman Verma Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Delhi NCR</p>
+            <p class="card-text">A close up shot bride & groom </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-25.jpg" onmouseover="imgIn4()" onmouseout="imgOut4()" id="img4"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Story Weavers</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Delhi NCR</p>
+            <p class="card-text">cute couple photo shoot.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/Img-24.jpg" onmouseover="imgIn5()" onmouseout="imgOut5()" id="img5"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sanoj Kumar Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Kochi</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/wedding-1.webp" onmouseover="imgIn6()" onmouseout="imgOut6()" id="img6"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mona Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Ahmednagar</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+          <img src="../Images/Photo-galleryImg/wedding-4.webp" onmouseover="imgIn7()" onmouseout="imgOut7()" id="img7"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sid Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Mumbai</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/wedding-3.webp" onmouseover="imgIn8()" onmouseout="imgOut8()" id="img8"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ritik Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Nagpur</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/wedding-11.jpg" onmouseover="imgIn9()" onmouseout="imgOut9()" id="img9"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Anket Photographers</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Mumbai</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+          <img src="../Images/Photo-galleryImg/wedding-12.jpg" height="215px" onmouseover="imgIn10()"
+            onmouseout="imgOut10()" id="img10" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pritesh Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Jaishingpur</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+          <img src="../Images/Photo-galleryImg/wedding-13.jpg" onmouseover="imgIn11()" onmouseout="imgOut11()"
+            id="img11" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Indra Photography</h5>
+            <p class="card-text" style="color:#e72e77">Photographers, Jaipur</p>
+            <p class="card-text">Bride and groom posing wedding shoot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <h2 id="prewedding" class="text-center"
+    style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important; color:#e72e77">
+    Pre Wedding Shoot Props</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/MakeUpImg/engagement-4.jpg" onmouseover="imgIn12()" onmouseout="imgOut12()" id="img12"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monty Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, America</p>
+          <p class="card-text">Anket And Anisha</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+        <img src="../Images/Photo-galleryImg/prewedding-10.jpg" onmouseover="imgIn13()" onmouseout="imgOut13()"
+          id="img13" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nihal Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photography, Mumbai</p>
+          <p class="card-text">Shivam And Shikha</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/MakeUpImg/engagement-3.jpg" onmouseover="imgIn14()" onmouseout="imgOut14()" id="img14"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ritik Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Nagpur</p>
+          <p class="card-text">Uddesh And Ritika</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/Photo-galleryImg/Img-26.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mukesh Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Ahmednagar</p>
+          <p class="card-text">Yogesh And Smita</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+        <img src="../Images/Photo-galleryImg/prewedding-14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Siyesh Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, US</p>
+          <p class="card-text">Sugoy And Vidya</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/Photo-galleryImg/prewedding-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sanket Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Goa</p>
+          <p class="card-text">Siddharth And Siddhi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/Photo-galleryImg/Img-10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Monty Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Ahmednagar</p>
+          <p class="card-text">Sameer And Mona</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+        <img src="../Images/Photo-galleryImg/Img-14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sunny Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Mumbai</p>
+          <p class="card-text">Siddhesh And Sona</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/Photo-galleryImg/Img-21.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rahul Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photography, Pune/p>
+          <p class="card-text">Nikhil And Shubhu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/MakeUpImg/engagement-11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Yuvraj Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Ahmednagar</p>
+          <p class="card-text">Pratik And Sayali</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+        <img src="../Images/Photo-galleryImg/prewedding-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sandy Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Mumbai</p>
+          <p class="card-text">Sandesh And Vishakha</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <img src="../Images/MakeUpImg/engagement-14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sandesh Photography</h5>
+          <p class="card-text" style="color:#e72e77">Photographers, Pune</p>
+          <p class="card-text">Sanket And Priya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <h2 id="beachwedding" class="text-center"
+  style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important; color:#e72e77">
+  Beach Pre Wedding</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-1.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Kartik And Dipa</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/beach-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Tanmay And Tanuja</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Shashank And Apurva</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Diptesh And Dips</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/beach-5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Arnav And Arya</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Nikhil And Shubha</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/prewedding-13.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Sai And Sidhdhi</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/prewedding-1.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Mohit And Riya</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-7.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Nikesh And Nira</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-8.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Sanchu And Kalyani</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/beach-9.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Pratap And Prajkta</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/beach-10.jpg" height="215px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Sanket And Gayatri</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 id="uniquewedding" class="text-center"
+  style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;; color:#e72e77">
+  Unique Location</h2>
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Bharat And Aboli</p>
+        <p class="card-text">Nature Prewedding Shoot</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/unique-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Kamlesh and Bhagyashri</p>
+        <p class="card-text">Farm Prewedding Shoot</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Ritesh And Rina</p>
+        <p class="card-text">Greny Prewedding Shoot</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Rinku And Tina</p>
+        <p class="card-text">Photographers, Delhi NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/unique-5.jpg" height="213px" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Mangesh And Rutvi</p>
+        <p class="card-text">Photography, Mumbai NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Tanishk And Tanvi</p>
+        <p class="card-text">Photography, Pune NCR</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Nalu And Rina</p>
+        <p class="card-text">Photography, Pune NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/unique-8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Vaibhav And Kaveri</p>
+        <p class="card-text">Photography, Banglore NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Arnav And Arya </p>
+        <p class="card-text">Photography, Nagpur NCR</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-10.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Chetan And Kirti</p>
+        <p class="card-text">Photography, Ahmednagar NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+      <img src="../Images/Photo-galleryImg/Img-11.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Riven And Kavya</p>
+        <p class="card-text">Photography, Mumbai NCR</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <img src="../Images/Photo-galleryImg/unique-12.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <p class="card-text" style="color:#e72e77">Shubham And Shubhra</p>
+        <p class="card-text">Photography, Nagpur NCR</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<h2 id="savethedate" class="text-center"
+style="font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;; color:#e72e77">
+Save the Date</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+<div class="col">
+  <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+    <img src="../Images/Photo-galleryImg/save-2.jpg" height="300px" class="card-img-top" alt="...">
+    <div class="card-body">
+
+      <p class="card-text" style="color:#e72e77">Sanket And Mona</p>
+
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded abu-top">
+    <img src="../Images/Photo-galleryImg/save-3.jpg" height="300px" class="card-img-top" alt="...">
+    <div class="card-body">
+
+      <p class="card-text" style="color:#e72e77">Shahid And Sneha</p>
+
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+    <img src="../Images/Photo-galleryImg/save-4.jpg" height="300px" class="card-img-top" alt="...">
+    <div class="card-body">
+
+      <p class="card-text" style="color:#e72e77">Rikit And Brinda</p>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 </body>
 </html>
