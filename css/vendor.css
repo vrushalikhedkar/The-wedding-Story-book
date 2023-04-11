@@ -59,7 +59,7 @@
   .img{
     transition: all 1.2s ease;
   }
-  .img:hover{ transform: scale(0.9); 
+  .img:hover{ transform: scale(0.9); /* scale = increase the size of image */
 
   }
   .btn{
@@ -120,4 +120,10 @@
         padding-bottom: 5px;
         margin: auto;
         border: 5px solid #F65A83;
-        box-shadow: 5px 5px 5px 5px black ;}
+        box-shadow: 5px 5px 5px 5px black ;
+        transition: all 1.2s ease;
+      }
+        .Bridaloutfit:hover{
+          transform: scale(0.9); /* scale = increase the size of image */
+         
+        }
