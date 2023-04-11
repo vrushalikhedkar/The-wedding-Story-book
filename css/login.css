@@ -6,22 +6,35 @@
 }
 
 body{
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
     color: aliceblue;
+    background-color: #ffebe8;
+}
+
+.nav-bg{
+    background-color: #F65A83;
+    height: 80px;
+}
+
+.ulmarleft{
+    margin-left: 120px;
+}
+
+.nav-item:hover{
+    background-color: #F65A83;
+    transform: scale(1.1);
 }
 
 .container{
     position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 480px;
     width: 100%;
     height: 600px;
     transform-style: preserve-3d;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-    background-color: #0e1734;
-    
 }
 
 input[type="checkbox"]{
@@ -30,7 +43,7 @@ input[type="checkbox"]{
 #check:checked ~ .container{
     transform: rotateY(-180deg);
 }
-.container  .page{
+.container .page{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -42,13 +55,13 @@ input[type="checkbox"]{
     transform: rotateY(0deg);
 }
 
-.container.signup{
+.container  .signup{
     transform: rotateY(-180deg);
     backface-visibility: hidden;
 
 }
 
-.container  .heading{
+.container .heading{
     position: relative;
     font-size: 3.5em;
     font-weight: 600;
@@ -66,39 +79,39 @@ input[type="checkbox"]{
     transition: 0.3s ease;
 }
 
-.container  .heading::before{
+.container .heading::before{
     bottom: 0;
     left: 30%;
     transform: translateX(-50%);
     animation: animate 2s linear infinite;
 }
 
-.container  .heading::before{
-    bottom: 0;
-    left: 30%;
+.container .heading::after{
+    top: 0;
+    right: 30%;
     transform: translateX(-50%);
-    animation: animate2 2s linear infinite;
+    animation: Animate2 2s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animate{
     50%{
         transform: translateX(50%);
     }
 }
 
-@keyframes animate2 {
+@keyframes Animate2{
     50%{
         transform: translateX(-50%);
     }
 }
 
-.container  .page form{
+.container .page form{
     display: flex;
     flex-direction: column;
     margin: 30px;
 }
 
-.container  .page form .entryarea{
+.container .page form .entryarea{
     position: relative;
     margin: 15px 0;
     height: 60px;
@@ -164,7 +177,19 @@ color: #ff0080;
     background: linear-gradient(97deg, #5f00ff 0%, #cd00ff 50%, #fb2091 100%);
     color: #fff;
     cursor: pointer;
+}
 
+.container  .page form #btn2{
+    margin: 20px 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 0;
+    background: linear-gradient(97deg, #5f00ff 0%, #cd00ff 50%, #fb2091 100%);
+    color: #fff;
+    cursor: pointer;
 }
 
 .container  .page form .switch{
@@ -179,23 +204,4 @@ color: #ff0080;
     color: #ff0080;
     cursor: pointer;
     font-weight: 600;
-}
-
-section{
-    position: absolute;
-    min-height: 10vh;
-    width: 100%;
-    background-color: #ffebe8;
-    background-position: center;
-    background-size: 100%;
-    z-index: -1;
-}
-
-section::after{
-    position: absolute;
-    min-height: 10vh;
-    width: 100%;
-    content: ' ';
-    background: linear-gradient(97deg, #5f00ff 0%, #cd00ff 50%, #fb2091 100%);
-    opacity: 0.75;
 }
