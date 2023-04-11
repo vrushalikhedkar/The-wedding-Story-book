@@ -158,28 +158,27 @@ body{
     margin-bottom: 50px;
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .CardRow{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.SideSpace{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    
-}
-
-.Wedplan{
+.card-body{
     background-color: #F65A83;
     color: whitesmoke;
-    width: 450px;
-    padding: 15px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 25px;
     border: 5px solid  black;
 }
 
-.Wedplan:hover{
+.card-body:hover{
     background-color: #ffebe8;
     color: black;
 }
@@ -243,7 +242,6 @@ body{
 .VendorbBTN{
     height: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* margin-left: 600px; */
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -265,6 +263,7 @@ body{
 }
 
 .Partners{
+    background-color: #e8e8e8;
     height: 400px;
     display: block;
     margin-bottom: 20px;
@@ -275,6 +274,7 @@ body{
 }
 
 .PartHead{
+    color: black;
     padding: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -307,6 +307,7 @@ body{
 }
 
 .ContactUSInfo{
+    color: black;
     font-size: 17px;
     font-weight: 600;
     font-family: serif;
@@ -329,33 +330,34 @@ body{
 .ContForm{
     float: right;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
 .Contlabel{
-    margin-top: 20px;
+    color: black;
+    margin-top: 10px;
 }
 
 .ContInput{
+    height: 35px;
     width: 500px;
     border-radius: 5px;
-    background-color: #ffebe8;
+    background-color: #e8e8e8;
 }
 
 .ContInput2{
-    height: 150px;
+    height: 100px;
     width: 500px;
     border-radius: 15px;
-    background-color: #ffebe8;
+    background-color: #e8e8e8;
     text-align: left;
     align-items: start;
 }
 
 .SubmitDiv{
-   
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,7 +383,6 @@ body{
 .text-center2{
     font-size: 20px;
     text-align: center;
-    color: black;
     font-weight: 500;
 }
 
