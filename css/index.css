@@ -7,6 +7,11 @@ body{
     background-color: #ffebe8;
 }
 
+.Dark{
+    color: white;
+    background-color: #212121;
+}
+
 .NavName{
     color: whitesmoke;
     font-size: 20px;
@@ -14,11 +19,13 @@ body{
 }
 
 .navbar{
+    display: flex;
+    justify-content: space-between;
     background-color: #F65A83;
 }
 
 .ulmarleft{
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .nav-item:hover{
@@ -31,81 +38,15 @@ body{
     margin-left: 10px;
 }
 
-/* Genel stil */
-.toggle-switch {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 24px;
-    margin: 10px;
-  }
-  
-  /* Giriş stil */
-  .toggle-switch .toggle-input {
-    display: none;
-  }
-  
-  /* Anahtarın stilinin etrafındaki etiketin stil */
-  .toggle-switch .toggle-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 24px;
-    background-color: #fff;
-    border-radius: 34px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  /* Anahtarın yuvarlak kısmının stil */
-  .toggle-switch .toggle-label::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    top: 2px;
-    left: 2px;
-    background-color: #fff;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
-  }
-  
-  /* Anahtarın etkin hale gelmesindeki stil değişiklikleri */
-  .toggle-switch .toggle-input:checked + .toggle-label {
-    background-color: #4CAF50;
-  }
-  
-  .toggle-switch .toggle-input:checked + .toggle-label::before {
-    transform: translateX(16px);
-  }
-  
-  /* Light tema */
-  .toggle-switch.light .toggle-label {
-    background-color: #BEBEBE;
-  }
-  
-  .toggle-switch.light .toggle-input:checked + .toggle-label {
-    background-color: #9B9B9B;
-  }
-  
-  .toggle-switch.light .toggle-input:checked + .toggle-label::before {
-    transform: translateX(6px);
-  }
-  
-  /* Dark tema */
-  .toggle-switch.dark .toggle-label {
-    background-color: #4B4B4B;
-  }
-  
-  .toggle-switch.dark .toggle-input:checked + .toggle-label {
-    background-color: #717171;
-  }
-  
-  .toggle-switch.dark .toggle-input:checked + .toggle-label::before {
-    transform: translateX(16px);
-  }
+.lightbtn{
+    background-color: #F65A83;
+    color: #ffebe8;
+}
+
+.lightbtn:hover{
+    background-color: #08192b;
+    color: #ffebe8;
+}
   
 
 .BGimg{
@@ -208,6 +149,10 @@ body{
 }
 
 .OurServ{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
     font-family: cursive;
     text-align: center;
     margin-bottom: 50px;
@@ -244,7 +189,6 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 50px;
-    background-color: #ffebe8;
     font-family: 'Times New Roman', Times, serif;
     text-decoration:dotted
 }
@@ -346,7 +290,7 @@ body{
 
 .ContRow{
     height: 500px;
-    background-color: #e72e77;
+    background-color: #e8e8e8;
     margin: 25px;
     border-radius: 25px;
     margin-top: 50px;

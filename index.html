@@ -11,7 +11,7 @@
   <link href="./css/index.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="body" id="DarkMode">
   <nav class="navbar navbar-expand-lg fixed-top" id="Home">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">
@@ -76,15 +76,16 @@
               <img src="./Images/HomePage/logicon.png" class="Icons" >
             </a>
           </li>
+          <button class="NavName ulmarleft lightbtn" onclick="Light()">Light</button>
+          <button class="NavName ulmarleft lightbtn" onclick="Dark()">Dark</button>
           </ul>
-          <div class="toggle-switch">
-            <input class="toggle-input" id="toggle" type="checkbox">
-            <label class="toggle-label" for="toggle"></label>
-          </div>
+          
           
       </div>
     </div>
   </nav>
+
+
   <section class="BGimg">
     <div class="HandBox">
       <font class="HandName">
@@ -178,8 +179,8 @@
   </div>
 
 
-  <div>
-    <h3 class="OurServ">Our Core Services</h3>
+  <div class="OurServ">
+    <h3>Our Core Services</h3>
   </div>
 
   <div class="CardRow">
@@ -490,7 +491,19 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <script>
+    function Light() {
+        const Element = document.getElementById("DarkMode");
+        Element.className = "body";
+    }
+
+    function Dark() {
+        const Element = document.getElementById("DarkMode");
+        Element.className = "Dark";
+    }
+</script>
 </body>
 
 </html>
