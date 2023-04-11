@@ -32,3 +32,15 @@ function setOldImage2(){
     document.getElementById("img2").src ="../Images/Destination-Wedding-img/Goa-client/img-4.jpg";
 
 }
+function setNewImageJaipur(){
+    document.getElementById("Jaipur-img").src = "../Images/Destination-Wedding-img/jaipur-client/J-1.webp"
+}
+function setOldImageJaipur(){
+    document.getElementById("Jaipur-img").src = "../Images/Destination-Wedding-img/jaipur-client/J-1-1.webp"
+}
+function setNewImageJaiselmer(){
+    document.getElementById("jaisalmer-img").src = "../Images/Destination-Wedding-img/jaisalmer-client/Ja-1.webp"
+}
+function setOldImageJaiselmer(){
+    document.getElementById("jaisalmer-img").src = "../Images/Destination-Wedding-img/jaisalmer-client/Ja-1-1.jpg"
+}

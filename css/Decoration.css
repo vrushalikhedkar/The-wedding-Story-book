@@ -32,13 +32,13 @@ body h3 {
 }
 
 
-.carousel-inner {
-    box-shadow: 0 0 10px 2px #B270A2;
+.slide-size{
+    width: 75%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    height: 550px;
-    width: 1100px;
-    cursor: pointer;
-    margin-left: 80px;
+    box-shadow: 0 0 10px 2px #B270A2;
 }
 
 
