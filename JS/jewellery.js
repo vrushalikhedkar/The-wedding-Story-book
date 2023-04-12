@@ -258,4 +258,4 @@ function jewelimg11() {
     const jewelImg = document.getElementById("ringImg6")
     jewelImg.src = "../Images/Jewellery/Rings/rj-6-2.jpg"
   }
-.
+

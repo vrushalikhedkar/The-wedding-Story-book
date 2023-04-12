@@ -140,4 +140,3 @@ function imgOut14() {
 }
 
 
-..
