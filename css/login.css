@@ -103,7 +103,7 @@ input[type="checkbox"]{
     animation: Animate2 2s linear infinite;
 }
 
-@keyframes animate{
+/* @keyframes animate{
     50%{
         transform: translateX(50%);
     }
@@ -113,7 +113,7 @@ input[type="checkbox"]{
     50%{
         transform: translateX(-50%);
     }
-}
+} */
 
 .container .page form{
     display: flex;
