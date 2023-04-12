@@ -10,9 +10,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top ">
+    <nav class="navbar navbar-expand-lg fixed-top" id="Home">
         <div class="container-fluid">
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,8 +19,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" aria-current="page" href="../index.html">
-                            <font
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 Home
                             </font>
@@ -29,8 +28,8 @@
                         </a>
                     </li>
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" href="../pages/Decoration.html">
-                            <font
+                        <a class="nav-link active" href="./pages/Decoration.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 Decoration
                             </font>
@@ -38,8 +37,8 @@
                         </a>
                     </li>
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" href="../pages/Destination-Wedding.html">
-                            <font
+                        <a class="nav-link active" href="./pages/Destination-Wedding.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 Destination Wedding
                             </font>
@@ -47,16 +46,16 @@
                         </a>
                     </li>
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" href="../pages/The-wedding-card.html">
-                            <font
+                        <a class="nav-link active" href="./pages/The-wedding-card.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 E-Invites 💌
                             </font>
                         </a>
                     </li>
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" href="../pages/AboutUs.html">
-                            <font
+                        <a class="nav-link active" href="./pages/AboutUs.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 About Us
                             </font>
@@ -64,18 +63,25 @@
                         </a>
                     </li>
                     <li class="nav-item ulmarleft">
-                        <a class="nav-link active" href="../pages/Login.html">
-                            <font
+                        <a class="nav-link active" href="./pages/Login.html">
+                            <font class="NavName"
                                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                                 Login
                             </font>
                             <img src="../Images/HomePage/logicon.png" class="Icons">
                         </a>
                     </li>
+                    <button class="NavName ulmarleft lightbtn" onclick="Light()">
+                        <img src="../Images/HomePage/sun.png" class="Icons2">
+                    </button>
+                    <button class="NavName ulmarleft2 lightbtn" onclick="Dark()">
+                        <img src="../Images/HomePage/dark.png" class="Icons2">
+                    </button>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <h2 id="Goa" class="container-title">This is a Goa Destination Wedding</h2>
     <div class="Destination-side-btn text-center">
@@ -250,14 +256,21 @@
                     <div class="row g-0 ">
                         <div class=" col-lg-4 col-md-9 col-sm-10 ">
                             <img onmouseover="setNewImage0()" onmouseout="setOldImage0()" id="img0"
-                            src="../Images/Destination-Wedding-img/Goa-client/img-3.jpg"
-                            class="img-fluid rounded-start img ms-3" alt="...">
+                                src="../Images/Destination-Wedding-img/Goa-client/img-3.jpg"
+                                class="img-fluid rounded-start img ms-3" alt="...">
                         </div>
 
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title"> </h5>
-                                <p class="horizontal-card-text">A bride's wedding day is one of the most special and memorable moments in her life, and a wedding in Goa can provide a breathtaking backdrop for this occasion. The bride can look forward to choosing from a range of stunning wedding attire, from traditional Indian garments such as sarees and lehengas to elegant Western gowns. Skilled hair and makeup artists are available to ensure that the bride looks and feels her best. With the stunning scenery and vibrant culture of Goa, a wedding in this region promises to be a romantic and unforgettable experience for any bride.
+                                <p class="horizontal-card-text">A bride's wedding day is one of the most special and
+                                    memorable moments in her life, and a wedding in Goa can provide a breathtaking
+                                    backdrop for this occasion. The bride can look forward to choosing from a range of
+                                    stunning wedding attire, from traditional Indian garments such as sarees and
+                                    lehengas to elegant Western gowns. Skilled hair and makeup artists are available to
+                                    ensure that the bride looks and feels her best. With the stunning scenery and
+                                    vibrant culture of Goa, a wedding in this region promises to be a romantic and
+                                    unforgettable experience for any bride.
 
                                 </p>
                                 <p class="card-text-end">Our Brides</p>
@@ -286,7 +299,13 @@
 
                         <p class="horizontal-card-text-2">Ruchita, Aloha, Sujay and Team made our wedding
                             perfect.
-                            For a couple looking to create a memorable wedding experience, Goa provides the perfect destination. With its serene beaches, lush greenery, and vibrant culture, Goa offers a unique and romantic setting to tie the knot. Couples can choose from a variety of venues, including luxury resorts and intimate beachside cottages. From traditional Indian ceremonies to western-style weddings, Goa provides a perfect backdrop for any kind of celebration. With delicious cuisine, expert decor and entertainment services, a wedding in Goa promises to be an unforgettable and cherished experience for the couple and their loved ones.
+                            For a couple looking to create a memorable wedding experience, Goa provides the perfect
+                            destination. With its serene beaches, lush greenery, and vibrant culture, Goa offers a
+                            unique and romantic setting to tie the knot. Couples can choose from a variety of venues,
+                            including luxury resorts and intimate beachside cottages. From traditional Indian ceremonies
+                            to western-style weddings, Goa provides a perfect backdrop for any kind of celebration. With
+                            delicious cuisine, expert decor and entertainment services, a wedding in Goa promises to be
+                            an unforgettable and cherished experience for the couple and their loved ones.
                         </p>
                         <p class="card-text-end-2">Our Brides</p>
                         <p class="card-text-end1-2">Check Testimonials below</p>
@@ -306,7 +325,13 @@
 
                         <p class="horizontal-card-text-2">We found Aloha and Ruchita to be impeccably
                             organised and budget conscious, and they always had our best interest in mind.
-                            For a romantic couple, a wedding in Goa can be a dream come true. The stunning natural beauty, warm tropical weather, and vibrant culture make Goa a perfect destination for a romantic and memorable wedding. From exchanging vows on a secluded beach to hosting a lavish reception in a luxury resort, couples can choose from a range of options to make their special day unforgettable. With expert wedding planners available, the couple can relax and enjoy their wedding celebration while creating cherished memories that will last a lifetime. A wedding in Goa promises to be a romantic and magical experience for any couple.
+                            For a romantic couple, a wedding in Goa can be a dream come true. The stunning natural
+                            beauty, warm tropical weather, and vibrant culture make Goa a perfect destination for a
+                            romantic and memorable wedding. From exchanging vows on a secluded beach to hosting a lavish
+                            reception in a luxury resort, couples can choose from a range of options to make their
+                            special day unforgettable. With expert wedding planners available, the couple can relax and
+                            enjoy their wedding celebration while creating cherished memories that will last a lifetime.
+                            A wedding in Goa promises to be a romantic and magical experience for any couple.
                         </p>
                         <p class="card-text-end-2">Our Brides</p>
                         <p class="card-text-end1-2">Check Testimonials below</p>
@@ -337,7 +362,14 @@
                         </h5>
 
                         <p class="horizontal-card-text-2">When we were looking to plan a destination wedding
-                            in GOA, We found my wedding planning online. For an innocent couple looking to celebrate their love, a wedding in Goa can be a wonderful experience. The peaceful beaches, lush greenery, and warm hospitality make Goa an ideal destination for a serene and intimate wedding celebration. The couple can choose from a variety of venues, ranging from rustic cottages to luxurious villas. With expert wedding planners available, the couple can customize their special day to their preferences, creating memories that will last a lifetime. A wedding in Goa promises to be a heartwarming and memorable experience for any innocent couple.
+                            in GOA, We found my wedding planning online. For an innocent couple looking to celebrate
+                            their love, a wedding in Goa can be a wonderful experience. The peaceful beaches, lush
+                            greenery, and warm hospitality make Goa an ideal destination for a serene and intimate
+                            wedding celebration. The couple can choose from a variety of venues, ranging from rustic
+                            cottages to luxurious villas. With expert wedding planners available, the couple can
+                            customize their special day to their preferences, creating memories that will last a
+                            lifetime. A wedding in Goa promises to be a heartwarming and memorable experience for any
+                            innocent couple.
                         </p>
                         <p class="card-text-end-2">Our Brides</p>
                         <p class="card-text-end1-2">Check Testimonials below</p>
@@ -713,8 +745,8 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card p-2">
                     <div class="inner">
-                        <img src="../Images/Destination-Wedding-img/jodhpur/jo-img-1.jpg" height="250px"
-                            width="370px" class="card-img-top" alt="...">
+                        <img src="../Images/Destination-Wedding-img/jodhpur/jo-img-1.jpg" height="250px" width="370px"
+                            class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
                         <p class="card-text">Umaid Bhawan </p>
@@ -858,14 +890,21 @@
                 <div class="card mb-3 horizontal-card col-lg-10 col-sm-10 col-md-10">
                     <div class="row g-0 ">
                         <div class=" col-lg-4 col-md-9 col-sm-10 ">
-                            <img onmouseover="setNewImageJodhpur()" onmouseout="setOldImageJodhpur()"
-                                id="jodhpur-img" src="../Images/Destination-Wedding-img/jodhpur-clint/jodhpur-clint-1-1.webp"
+                            <img onmouseover="setNewImageJodhpur()" onmouseout="setOldImageJodhpur()" id="jodhpur-img"
+                                src="../Images/Destination-Wedding-img/jodhpur-clint/jodhpur-clint-1-1.webp"
                                 class="img-fluid rounded-start img" alt="...">
                         </div>
                         <div class="col-lg-8 col-md-10 col-sm-12">
                             <div class="card-body">
                                 <h5 class="card-title"> </h5>
-                                <p class="horizontal-card-text">A wedding in Jodhpur can be a royal and majestic affair for any couple looking to tie the knot. Known as the "Blue City" for its iconic blue buildings, Jodhpur offers a stunning and unique backdrop for a wedding celebration. The city is home to magnificent palaces and forts that can be rented for an extravagant wedding ceremony. The couple can also opt for a traditional Indian wedding, complete with elaborate rituals and colorful attire. From luxurious accommodation to mouth-watering cuisine, Jodhpur provides everything needed for a regal and unforgettable wedding experience.
+                                <p class="horizontal-card-text">A wedding in Jodhpur can be a royal and majestic affair
+                                    for any couple looking to tie the knot. Known as the "Blue City" for its iconic blue
+                                    buildings, Jodhpur offers a stunning and unique backdrop for a wedding celebration.
+                                    The city is home to magnificent palaces and forts that can be rented for an
+                                    extravagant wedding ceremony. The couple can also opt for a traditional Indian
+                                    wedding, complete with elaborate rituals and colorful attire. From luxurious
+                                    accommodation to mouth-watering cuisine, Jodhpur provides everything needed for a
+                                    regal and unforgettable wedding experience.
                                 </p>
                                 <p class="card-text-end">Our couples</p>
                                 <p class="card-text-end1">Check Testimonials below</p>
@@ -883,8 +922,8 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card p-2">
                     <div class="inner">
-                        <img src="../Images/Destination-Wedding-img/pushkar/p-img-1.jpg" height="250px"
-                            width="370px" class="card-img-top" alt="...">
+                        <img src="../Images/Destination-Wedding-img/pushkar/p-img-1.jpg" height="250px" width="370px"
+                            class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
                         <p class="card-text">The Pushkar Bagh Palace</p>
@@ -1028,14 +1067,21 @@
                 <div class="card mb-3 horizontal-card col-lg-10 col-sm-10 col-md-10">
                     <div class="row g-0 ">
                         <div class=" col-lg-4 col-md-9 col-sm-10 ">
-                            <img onmouseover="setNewImagepushkar()" onmouseout="setOldImagepushkar()"
-                                id="pushkar-img" src="../Images/Destination-Wedding-img/pushkar-client/pushkar-1.webp"
+                            <img onmouseover="setNewImagepushkar()" onmouseout="setOldImagepushkar()" id="pushkar-img"
+                                src="../Images/Destination-Wedding-img/pushkar-client/pushkar-1.webp"
                                 class="img-fluid rounded-start img" alt="...">
                         </div>
                         <div class="col-lg-8 col-md-10 col-sm-12">
                             <div class="card-body">
                                 <h5 class="card-title"> </h5>
-                                <p class="horizontal-card-text">For a couple seeking a spiritual and traditional wedding experience, Pushkar is an ideal destination. The holy city of Pushkar is known for its sacred lake and ancient temples, offering a serene and mystical setting for a wedding ceremony. The couple can choose from a variety of venues, including rustic havelis and luxurious resorts. Pushkar is also famous for its camel fair, which can be incorporated into the wedding festivities. With traditional music, dance, and cuisine, a wedding in Pushkar promises to be a unique and spiritually enriching experience for the couple and their guests.
+                                <p class="horizontal-card-text">For a couple seeking a spiritual and traditional wedding
+                                    experience, Pushkar is an ideal destination. The holy city of Pushkar is known for
+                                    its sacred lake and ancient temples, offering a serene and mystical setting for a
+                                    wedding ceremony. The couple can choose from a variety of venues, including rustic
+                                    havelis and luxurious resorts. Pushkar is also famous for its camel fair, which can
+                                    be incorporated into the wedding festivities. With traditional music, dance, and
+                                    cuisine, a wedding in Pushkar promises to be a unique and spiritually enriching
+                                    experience for the couple and their guests.
                                 </p>
                                 <p class="card-text-end">Our couples</p>
                                 <p class="card-text-end1">Check Testimonials below</p>
@@ -1054,8 +1100,8 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card p-2">
                     <div class="inner">
-                        <img src="../Images/Destination-Wedding-img/udaipur/u-img-1.jpg" height="250px"
-                            width="370px" class="card-img-top" alt="...">
+                        <img src="../Images/Destination-Wedding-img/udaipur/u-img-1.jpg" height="250px" width="370px"
+                            class="card-img-top" alt="...">
                     </div>
                     <div class="card-body">
                         <p class="card-text">Lake Palace</p>
@@ -1199,14 +1245,21 @@
                 <div class="card mb-3 horizontal-card col-lg-10 col-sm-10 col-md-10">
                     <div class="row g-0 ">
                         <div class=" col-lg-4 col-md-9 col-sm-10 ">
-                            <img onmouseover="setNewImageudaipur()" onmouseout="setOldImageudaipur()"
-                                id="udaipur-img" src="../Images/Destination-Wedding-img/udaipur-client/udaipur-client-1.jpg"
+                            <img onmouseover="setNewImageudaipur()" onmouseout="setOldImageudaipur()" id="udaipur-img"
+                                src="../Images/Destination-Wedding-img/udaipur-client/udaipur-client-1.jpg"
                                 class="img-fluid rounded-start img" alt="...">
                         </div>
                         <div class="col-lg-8 col-md-10 col-sm-12">
                             <div class="card-body">
                                 <h5 class="card-title"> </h5>
-                                <p class="horizontal-card-text">For a couple seeking a spiritual and traditional wedding experience, Pushkar is an ideal destination. The holy city of Pushkar is known for its sacred lake and ancient temples, offering a serene and mystical setting for a wedding ceremony. The couple can choose from a variety of venues, including rustic havelis and luxurious resorts. Pushkar is also famous for its camel fair, which can be incorporated into the wedding festivities. With traditional music, dance, and cuisine, a wedding in Pushkar promises to be a unique and spiritually enriching experience for the couple and their guests.
+                                <p class="horizontal-card-text">For a couple seeking a spiritual and traditional wedding
+                                    experience, Pushkar is an ideal destination. The holy city of Pushkar is known for
+                                    its sacred lake and ancient temples, offering a serene and mystical setting for a
+                                    wedding ceremony. The couple can choose from a variety of venues, including rustic
+                                    havelis and luxurious resorts. Pushkar is also famous for its camel fair, which can
+                                    be incorporated into the wedding festivities. With traditional music, dance, and
+                                    cuisine, a wedding in Pushkar promises to be a unique and spiritually enriching
+                                    experience for the couple and their guests.
                                 </p>
                                 <p class="card-text-end">Our couples</p>
                                 <p class="card-text-end1">Check Testimonials below</p>
@@ -1218,13 +1271,11 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
+    <a href="#main">
+        <div class="ScrollToTop center ">
+            <div class="scroll-top text-center pointer white regular fcol last-btn ">Back To Top</div>
+        </div>
+    </a>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
