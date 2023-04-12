@@ -337,12 +337,13 @@ body{
     background-color: #F65A83;
 }
 
-/* .LogoName{
-    margin-left: 60px;
+.LogoName{
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-} */
+}
 
 .text-center2{
+    color: white;
     font-size: 20px;
     text-align: center;
     font-weight: 500;
