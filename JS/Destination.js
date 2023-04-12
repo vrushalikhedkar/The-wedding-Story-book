@@ -50,3 +50,9 @@ function setNewImageJodhpur(){
 function setOldImageJodhpur(){
     document.getElementById("jodhpur-img").src = "../Images/Destination-Wedding-img/jodhpur-clint/jodhpur-clint.webp"
 }
+function setNewImagepushkar(){
+    document.getElementById("pushkar-img").src = "../Images/Destination-Wedding-img/pushkar-client/pushkar-1-1.webp"
+}
+function setOldImagepushkar(){
+    document.getElementById("pushkar-img").src = "../Images/Destination-Wedding-img/pushkar-client/pushkar-1.webp"
+}
