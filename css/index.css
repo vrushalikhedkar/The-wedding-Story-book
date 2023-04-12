@@ -53,9 +53,9 @@ body{
     background-image: url(../Images/HomePage/hand.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 700px;
-    position: scroll;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .HandBox{
@@ -186,11 +186,12 @@ body{
 
 .ChecKwork{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration:dotted
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 
@@ -198,6 +199,8 @@ body{
     transform: scale(1.1);
     transition:1s ease;
 }
+
+
 
 .VendorbBTNRow{
     display: flex;
@@ -227,52 +230,41 @@ body{
     margin-bottom: 50px;
 }
 
-.Partners{
+.row2{
     background-color: #e8e8e8;
-    height: 400px;
-    display: block;
-    margin-bottom: 20px;
-    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 2px 2px 2px 2px #F65A83;
 }
 
 .PartHead{
+    font-size: 50px;
+    font-family: 600;
     color: black;
-    padding: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .PartIMG{
-    align-items: center;
-    height: 80px;
-    width: 200px;
-    margin-left: 80px;
-    margin-top: 50px;
+    height: 100px;
 }
 
 .ContRow{
     height: 500px;
     background-color: #e8e8e8;
-    margin: 25px;
     border-radius: 25px;
-    margin-top: 50px;
     border: 2px solid black;
     box-shadow: 2px 2px 2px 2px #F65A83;;
 }
 
 .ContactUS{
-    float: left;
-    margin-left: 40px;
-    margin-top: 15px;
-    width: 600px;
     text-align: justify;
 }
 
 .ContactUSInfo{
-    color: black;
     font-size: 17px;
     font-weight: 600;
     font-family: serif;
@@ -280,16 +272,17 @@ body{
 }
 
 .ContIcon{
+    color: #F65A83;
     height: 30px;
-    width: 30px;
-    margin-top: 15px;
-    
 }
 
 .InfoIcon{
     font-size: 15px;
-    color: black;
     font-weight: 600;
+}
+
+.ContBord{
+    border: 2px solid black;
 }
 
 .ContForm{
@@ -301,7 +294,6 @@ body{
 }
 
 .Contlabel{
-    color: black;
     margin-top: 10px;
 }
 
@@ -322,7 +314,6 @@ body{
 }
 
 .SubmitDiv{
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
