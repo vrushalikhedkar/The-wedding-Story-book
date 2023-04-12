@@ -10,7 +10,23 @@
 body {
     background-color: #ffebe8;}
 
-
+    .navbar{
+        background-color: #F65A83;
+    }
+    
+    .ulmarleft{
+        margin-left: 80px;
+    }
+    
+    .nav-item:hover{
+        background-color: #F65A83;
+        transform: scale(1.1);
+    }
+    
+    .Icons{
+        height: 20px;
+        margin-left: 10px;
+    }
 .top-heading {
     font-size: 50px;
   color: #F653A8;
