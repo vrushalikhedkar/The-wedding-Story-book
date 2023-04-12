@@ -44,3 +44,9 @@ function setNewImageJaiselmer(){
 function setOldImageJaiselmer(){
     document.getElementById("jaisalmer-img").src = "../Images/Destination-Wedding-img/jaisalmer-client/Ja-1-1.jpg"
 }
+
+
+
+
+
+.
