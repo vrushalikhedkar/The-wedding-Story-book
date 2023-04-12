@@ -1,0 +1,11 @@
+.body {
+    background-color: #ffebe8;
+}
+
+.Slidesize1{
+    
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
