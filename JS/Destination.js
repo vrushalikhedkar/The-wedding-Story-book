@@ -44,6 +44,7 @@ function setNewImageJaiselmer(){
 function setOldImageJaiselmer(){
     document.getElementById("jaisalmer-img").src = "../Images/Destination-Wedding-img/jaisalmer-client/Ja-1-1.jpg"
 }
+
 function setNewImageJodhpur(){
     document.getElementById("jodhpur-img").src = "../Images/Destination-Wedding-img/jodhpur-clint/jodhpur-clint.webp"
 }
@@ -62,3 +63,4 @@ function setNewImageudaipur(){
 function setOldImageudaipur(){
     document.getElementById("udaipur-img").src = "../Images/Destination-Wedding-img/udaipur-client/udaipur-client-1.jpg"
 }
+
