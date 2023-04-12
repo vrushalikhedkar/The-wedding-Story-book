@@ -7,12 +7,25 @@ body{
     background-color: #ffebe8;
 }
 
+.Dark{
+    color: white;
+    background-color: #212121;
+}
+
+.NavName{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
 .navbar{
+    display: flex;
+    justify-content: space-between;
     background-color: #F65A83;
 }
 
 .ulmarleft{
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .nav-item:hover{
@@ -24,6 +37,17 @@ body{
     height: 20px;
     margin-left: 10px;
 }
+
+.lightbtn{
+    background-color: #F65A83;
+    color: #ffebe8;
+}
+
+.lightbtn:hover{
+    background-color: #08192b;
+    color: #ffebe8;
+}
+  
 
 .BGimg{
     background-image: url(../Images/HomePage/hand.jpg);
@@ -125,33 +149,37 @@ body{
 }
 
 .OurServ{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
     font-family: cursive;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.CardRow{
+.row{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.SideSpace{
-    margin-left: 30px;
-    margin-bottom: 30px;
+.CardRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    background-color: #F65A83;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid  black;
     
 }
 
-.Wedplan{
-    background-color: #F65A83;
-    color: whitesmoke;
-    width: 450px;
-    padding: 15px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 25px;
-    border: 5px solid  black;
-}
-
-.Wedplan:hover{
+.card-body:hover{
     background-color: #ffebe8;
     color: black;
 }
@@ -161,49 +189,12 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 50px;
-    background-color: #ffebe8;
     font-family: 'Times New Roman', Times, serif;
     text-decoration:dotted
 }
 
-.DecoRow{
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
-
-.DecoRow2{
-    height: 250px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
-
-.DecoRow3{
-    height: 250px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
 
 .DecoRow:hover{
-    transform: scale(1.1);
-    transition:1s ease;
-}
-
-.DecoRow2:hover{
-    transform: scale(1.1);
-    transition:1s ease;
-}
-
-.DecoRow3:hover{
     transform: scale(1.1);
     transition:1s ease;
 }
@@ -216,7 +207,6 @@ body{
 .VendorbBTN{
     height: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* margin-left: 600px; */
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -238,6 +228,7 @@ body{
 }
 
 .Partners{
+    background-color: #e8e8e8;
     height: 400px;
     display: block;
     margin-bottom: 20px;
@@ -248,6 +239,7 @@ body{
 }
 
 .PartHead{
+    color: black;
     padding: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -263,7 +255,7 @@ body{
 
 .ContRow{
     height: 500px;
-    background-color: #ffebe8;
+    background-color: #e8e8e8;
     margin: 25px;
     border-radius: 25px;
     margin-top: 50px;
@@ -280,6 +272,7 @@ body{
 }
 
 .ContactUSInfo{
+    color: black;
     font-size: 17px;
     font-weight: 600;
     font-family: serif;
@@ -302,33 +295,34 @@ body{
 .ContForm{
     float: right;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
 .Contlabel{
-    margin-top: 20px;
+    color: black;
+    margin-top: 10px;
 }
 
 .ContInput{
+    height: 35px;
     width: 500px;
     border-radius: 5px;
-    background-color: #ffebe8;
+    background-color: #e8e8e8;
 }
 
 .ContInput2{
-    height: 150px;
+    height: 100px;
     width: 500px;
     border-radius: 15px;
-    background-color: #ffebe8;
+    background-color: #e8e8e8;
     text-align: left;
     align-items: start;
 }
 
 .SubmitDiv{
-   
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,15 +342,20 @@ body{
 
 .LogoName{
     margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .text-center2{
     font-size: 20px;
     text-align: center;
-    color: black;
     font-weight: 500;
 }
 
 .container{
-    max-height: 400px;
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
 }
