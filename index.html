@@ -7,11 +7,12 @@
   <title>The Wedding Story Book</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
   <link href="./css/index.css" rel="stylesheet">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top ">
+<body class="body" id="DarkMode">
+  <nav class="navbar navbar-expand-lg fixed-top" id="Home">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">
         <img src="./Images/HomePage/LOGO.png" alt="TheWeddingStoryBook" width="80" height="80">
@@ -24,7 +25,7 @@
         <ul class="navbar-nav">
           <li class="nav-item ulmarleft">
             <a class="nav-link active" aria-current="page" href="index.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 Home
               </font>
@@ -33,7 +34,7 @@
           </li>
           <li class="nav-item ulmarleft">
             <a class="nav-link active" href="./pages/Decoration.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 Decoration
               </font>
@@ -42,7 +43,7 @@
           </li>
           <li class="nav-item ulmarleft">
             <a class="nav-link active" href="./pages/Destination-Wedding.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 Destination Wedding
               </font>
@@ -51,7 +52,7 @@
           </li>
           <li class="nav-item ulmarleft">
             <a class="nav-link active" href="./pages/The-wedding-card.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 E-Invites 💌
               </font>
@@ -59,7 +60,7 @@
           </li>
           <li class="nav-item ulmarleft">
             <a class="nav-link active" href="./pages/AboutUs.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 About Us
               </font>
@@ -68,17 +69,23 @@
           </li>
           <li class="nav-item ulmarleft">
             <a class="nav-link active" href="./pages/Login.html">
-              <font
+              <font class="NavName"
                 style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
                 Login
               </font>
               <img src="./Images/HomePage/logicon.png" class="Icons" >
             </a>
           </li>
+          <button class="NavName ulmarleft lightbtn" onclick="Light()">Light</button>
+          <button class="NavName ulmarleft lightbtn" onclick="Dark()">Dark</button>
           </ul>
+          
+          
       </div>
     </div>
   </nav>
+
+
   <section class="BGimg">
     <div class="HandBox">
       <font class="HandName">
@@ -91,7 +98,7 @@
   </section>
   <div>
     <a href="./pages/Bride-Groom-Cloth.html">
-      <img src="./Images/HomePage/Bridaloutfit.webp" alt="Bride-Groom-Cloth" class="Bridaloutfit col-lg-11 ms-12 me-5 mt-5 col-sm-11 ms-5 me-5 mt-5 col-md-11 ms-5 me-5 mt-5 col-xs-11 ms-5 me-5 mt-5">
+      <img src="./Images/HomePage/Bridaloutfit.webp" alt="Bride-Groom-Cloth" class="Bridaloutfit col-lg-11 ms-12 me-5 mt-5 col-sm-11 ms-5 me-5 mt-5 col-md-11 ms-5 me-5 mt-5 col-xs-11 ms-5 me-5 mt-5" style="border-radius: 35px;">
     </a>
   </div>
   <div class="VidClass">
@@ -172,72 +179,60 @@
   </div>
 
 
-  <div>
-    <h3 class="OurServ">Our Core Services</h3>
+  <div class="OurServ">
+    <h3>Our Core Services</h3>
   </div>
 
-  <div class="CardRow">
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan" >
-          <h2 class="card-title" style="text-align: center;">	
-            Partial Wedding Planning</h2>
-          <p class="card-text">Our partial planning services is perfect for those couples who have already started their wedding process and need guidance regarding some elements of their wedding like decor designing.</p>
-        </div>
+  <div class="row">
+    
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan" >
+        <h2 class="card-title" style="text-align: center;">	
+          Wedding Planning</h2>
+        <p class="card-text">Our partial planning services is perfect for those couples who have already started their wedding process and need guidance regarding some elements of their wedding like decor designing.</p>
       </div>
     </div>
 
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan">
-          <h2 class="card-title" style="text-align: center;">	
-            Vendor Sourcing</h2>
-          <p class="card-text">Special prices and exclusive discounts with our partners (Decorators, Entertainment, Bridal Makeup, Mehendi etc) and priority access to events sponsored by MWP.</p>
-        </div>
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan">
+        <h2 class="card-title" style="text-align: center;">	
+          Vendor Sourcing</h2>
+        <p class="card-text">Special prices and exclusive discounts with our partners (Decorators, Entertainment, Bridal Makeup, Mehendi etc) and priority access to events sponsored by Wedding Story.</p>
       </div>
     </div>
 
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan">
-          <h2 class="card-title" style="text-align: center;">	
-            Wedding Packages</h2>
-          <p class="card-text">Wedding packages are pre-arranged combinations of the best wedding deals. Wedding Packages are extremely popular when planning a destination wedding.</p>
-        </div>
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan">
+        <h2 class="card-title" style="text-align: center;">	
+          Wedding Packages</h2>
+        <p class="card-text">Wedding packages are pre-arranged combinations of the best wedding deals. Wedding Packages are extremely popular when planning a destination wedding.</p>
       </div>
     </div>
   </div>
 
-  <div class="CardRow">
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan" >
-          <h2 class="card-title" style="text-align: center;">	
-            Complete Wedding Planning</h2>
-          <p class="card-text">Our Full Service Wedding Planning includes every aspect of planning your wedding. No detail is left undone, as our team will be there for you in every step of the way</p>
-        </div>
+  <div class="row">
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan" >
+        <h2 class="card-title" style="text-align: center;">	
+          Complete Wedding Planning</h2>
+        <p class="card-text">Our Full Service Wedding Planning includes every aspect of planning your wedding. No detail is left undone, as our team will be there for you in every step of the way</p>
       </div>
     </div>
 
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan">
-          <h2 class="card-title" style="text-align: center;">	
-            Venue Booking</h2>
-          <p class="card-text">MWP plans over 40 weddings in year. This avail us to get discounted rates from venues which are not available to you. Get benefits of our hotel tie-up. Post your requirements now.</p>
-        </div>
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan">
+        <h2 class="card-title" style="text-align: center;">	
+          Wedding Venue Booking</h2>
+        <p class="card-text">Wedding Story plans over 40 weddings in year. This avail us to get discounted rates from venues which are not available to you. Get benefits of our hotel tie-up. Post your requirements now.</p>
       </div>
     </div>
 
-    <div class="col-4">
-      <div class="card SideSpace" style="width: 18rem;">
-        <div class="card-body Wedplan">
-          <h2 class="card-title" style="text-align: center;">	
-            Wedding Decor</h2>
-          <p class="card-text">From the moment your guests walk in, they should experience your vision and personality through the stunning customized décor and unique touches that the  our wedding decorators will provide.</p>
-        </div>
+    <div class="card col-lg-3 p-2 ms-3 mb-5 col-md-10 col-sm-10 col-xs-10">
+      <div class="card-body Wedplan">
+        <h2 class="card-title" style="text-align: center;">	
+          Wedding Decor</h2>
+        <p class="card-text">From the moment your guests walk in, they should experience your vision and personality through the stunning customized décor and unique touches that the  our wedding decorators will provide.</p>
       </div>
-    </div>
   </div>
 
   <div>
@@ -247,24 +242,27 @@
   </div>
 
   <div class="CardRow">
-    <img src="./Images/HomePage/MahaMandap.jpeg" class="DecoRow" >
-    <img src="./Images/HomePage/palkhi.jpg" class="DecoRow" >
-    <img src="./Images/HomePage/MahaDeco.jpeg" class="DecoRow" >
+    <img src="./Images/HomePage/MahaMandap.jpeg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/palkhi.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/MahaDeco.jpeg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
   </div>
 
   <div class="CardRow">
-    <img src="./Images/HomePage/MAndap.jpg" class="DecoRow2" >
-    <img src="./Images/HomePage/Mandap2.jpg" class="DecoRow2" >
-    <img src="./Images/HomePage/mandap3.jpg" class="DecoRow2" >
-    <img src="./Images/HomePage/Mandap4.jpg" class="DecoRow2" >
-    <img src="./Images/HomePage/mandap5.jpg" class="DecoRow2" >
+    <img src="./Images/HomePage/MAndap.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/Mandap2.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/mandap3.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
   </div>
 
   <div class="CardRow">
-    <img src="./Images/HomePage/3mandap.jpg" class="DecoRow3" >
-    <img src="./Images/HomePage/31mandap.jpg" class="DecoRow3" >
-    <img src="./Images/HomePage/311mandap.jpg" class="DecoRow3" >
-    <img src="./Images/HomePage/312mandap.jpg" class="DecoRow3" >
+    <img src="./Images/HomePage/3mandap.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/31mandap.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/311mandap.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+  </div>
+  
+  <div class="CardRow">
+    <img src="./Images/HomePage/Mandap4.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/mandap5.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
+    <img src="./Images/HomePage/312mandap.jpg" class="img-fluid DecoRow col-lg-3 m-2 col-md-3 m-2 col-sm-3 m-2" >
   </div>
 
   <div class="VendorbBTNRow">
@@ -324,10 +322,10 @@
       <label class="Contlabel" for="inputname">Name:</label><br>
       <input type="Name" id="inputname" Placeholder="Please Enter Your Name" required class="ContInput">
       <br><br>
-      <label for="inputname">City:</label><br>
+      <label class="Contlabel" for="inputname">City:</label><br>
       <input type="Name" id="inputname" Placeholder="Please Enter Your Name" required class="ContInput">
       <br><br>
-      <label for="inputname">Wedding Type:</label><br>
+      <label class="Contlabel" for="inputname">Wedding Type:</label><br>
       <input type="Name" id="inputname" Placeholder="Type Of Wedding You want" required class="ContInput">
       <br><br>
       <label for="inputname">Message:</label><br>
@@ -343,7 +341,7 @@
   </div>
 
   <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5">
+<div class="container my-">
 
   <footer class="bg-primary text-center text-lg-start text-white">
     <!-- Grid container -->
@@ -359,27 +357,9 @@
             
           </div>
           <h2 class="LogoName">The Wedding<br>
-            Story Book</h2>
+            &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Story Book</h2>
 
           <p class="text-center2">"From Dreams To Reality: Let Us Plan Your Wedding"</p>
-
-          <ul class="list-unstyled d-flex flex-row justify-content-center">
-            <li>
-              <a class="text-white px-2" href="#!">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li>
-              <a class="text-white px-2" href="#!">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a class="text-white ps-2" href="#!">
-                <i class="fab fa-youtube"></i>
-              </a>
-            </li>
-          </ul>
 
         </div>
         <!--Grid column-->
@@ -429,26 +409,26 @@
 
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Vendors
+              <a href="./pages/Vendor.html" class="text-white" style="text-decoration: none"><i class="fas fa-paw pe-3"></i>Vendors
                 <img src="./Images/HomePage/VendIcon.png" class="Icons" >
               </a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Halls & Lawns
+              <a href="./pages/Halls.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Halls & Lawns
                 <img src="./Images/HomePage/hallIcon.png" class="Icons" >
               </a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>E-Invites</a>
+              <a href="./pages/The-wedding-card.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>E-Invites</a>
               <img src="./Images/HomePage/InviIcon.png" class="Icons" >
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>About Us
+              <a href="./pages/AboutUs.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>About Us
                 <img src="./Images/HomePage/AbouIcon.png" class="Icons" >
               </a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Home
+              <a href="#Home" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Home
                 <img src="./Images/HomePage/HomeIcon.png" class="Icons" >
               </a>
             </li>
@@ -479,9 +459,9 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center p-3" style="background-color: black">
       © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">theweddingplanning.netlify.app</a>
+      <a class="text-white" href="http://theweddingstorybook.netlify.app">theweddingstorybook.netlify.app</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -502,7 +482,19 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <script>
+    function Light() {
+        const Element = document.getElementById("DarkMode");
+        Element.className = "body";
+    }
+
+    function Dark() {
+        const Element = document.getElementById("DarkMode");
+        Element.className = "Dark";
+    }
+</script>
 </body>
 
 </html>
