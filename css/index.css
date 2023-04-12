@@ -28,6 +28,10 @@ body{
     margin-left: 60px;
 }
 
+.ulmarleft2{
+    margin-left: 10px;
+}
+
 .nav-item:hover{
     background-color: #F65A83;
     transform: scale(1.1);
@@ -36,6 +40,10 @@ body{
 .Icons{
     height: 20px;
     margin-left: 10px;
+}
+
+.Icons2{
+    height: 40px;
 }
 
 .lightbtn{
@@ -286,8 +294,6 @@ body{
 }
 
 .ContForm{
-    float: right;
-    margin-right: 100px;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
@@ -298,16 +304,15 @@ body{
 }
 
 .ContInput{
-    height: 35px;
-    width: 500px;
-    border-radius: 5px;
+    height: 45px;
+    font-weight: 600;
+    border-radius: 15px;
     background-color: #e8e8e8;
 }
 
 .ContInput2{
     height: 100px;
-    width: 500px;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #e8e8e8;
     text-align: left;
     align-items: start;
@@ -323,7 +328,7 @@ body{
     background-color: #ffebe8;
     padding: 5px;
     font-size: large;
-    width: 150px;
+    border-radius: 25px;
     font-weight: 600;
 }
 
@@ -331,10 +336,10 @@ body{
     background-color: #F65A83;
 }
 
-.LogoName{
+/* .LogoName{
     margin-left: 60px;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 .text-center2{
     font-size: 20px;
