@@ -1,5 +1,10 @@
-body {
+body{
     background-color: #ffebe8;
+}
+
+.Dark{
+    color: white;
+    background-color: #212121;
 }
 
 .navbar{
@@ -51,6 +56,7 @@ a {
 padding: 10px;
 border: white 15px solid;
 border-radius: 10px;
+background-color: white;
 }
 
 .image-block{
