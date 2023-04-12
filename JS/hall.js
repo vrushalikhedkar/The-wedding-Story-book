@@ -1,15 +1,12 @@
-et menu = document.querySelector('#menu-btn');
-let navbar = document.querySelector('.header .navbar');
+function setNewImage(){
+    document.getElementById("img").src ="../Images/hall/review1 (2).jpg";
+  
+}
+function setOldImage(){
+    document.getElementById("img").src ="../Images/hall/review1 (1).jpg";
 
-menu.onclick = () => {
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
 }
 
-window.onscroll = () => {
-    menu.classList.remove('fa-times');
-    navbar.classList.remove('active');
-}
 
 var swiper = new Swiper(".home-slider", {
     grabCursor:true,
@@ -100,3 +97,5 @@ accordions.forEach(acco =>{
         acco.classList.add('active');
     }
 })
+
+
