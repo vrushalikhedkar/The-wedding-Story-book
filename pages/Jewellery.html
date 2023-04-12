@@ -5,21 +5,104 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="../css/jewellery.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="../JS/jewellery.js"></script>
 </head>
 <title>Jewellery</title>
 </head>
 
 <!-- https://www.indiatrendshop.com/collections/bridal-sets -->
 
-<body class="body">
+<body class="body" id="DarkMode">
 
-  <br><br><br><br><br><br><br><br>
+  <br>
 
-  <div class="fixed-top">...hhhhhhhhh</div>
-  <div id="carouselExampleCaptions" class="carousel slide Slidesize">
+
+
+  <nav class="navbar navbar-expand-lg fixed-top" id="Home">
+    <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">
+        <img src="./Images/HomePage/LOGO.png" alt="TheWeddingStoryBook" width="80" height="80">
+      </a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" aria-current="page" href="/index.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            Home
+                        </font>
+                        <img src="../Images/HomePage/HomeIcon.png" class="Icons">
+                    </a>
+                </li>
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Decoration.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            Decoration
+                        </font>
+                        <img src="../Images/HomePage/DecoIcon.png" class="Icons">
+                    </a>
+                </li>
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Destination-Wedding.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            Destination Wedding
+                        </font>
+                        <img src="../Images/HomePage/DestIcon.png" class="Icons">
+                    </a>
+                </li>
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/The-wedding-card.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            E-Invites 💌
+                        </font>
+                    </a>
+                </li>
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/AboutUs.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            About Us
+                        </font>
+                        <img src="../Images/HomePage/AbouIcon.png" class="Icons">
+                    </a>
+                </li>
+                <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Login.html">
+                        <font class="NavName"
+                            style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                            Login
+                        </font>
+                        <img src="../Images/HomePage/logicon.png" class="Icons">
+                    </a>
+                </li>
+                <button class="NavName ulmarleft lightbtn btn" style="border-style: 1px #ffebe8;" onclick="Light()">
+                  <img src="../Images/HomePage/sun.png" class="Icons2">
+                </button>
+                <button class="NavName ulmarleft2 lightbtn btn" onclick="Dark()">
+                  <img src="../Images/HomePage/dark.png" class="Icons2">
+                </button>
+            </ul>
+
+
+        </div>
+    </div>
+</nav>
+
+<br><br><br><br>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide Slidesize rounded">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -30,46 +113,52 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 4"></button>
     </div>
-    <div class="carousel-inner">
+
+
+    <div class="carousel-inner rounded">
       <div class="carousel-item active">
-        <img src="../Images/Jewellery/bridal/pexels-baljit-johal-6387623.jpg" class="d-block w-100" height="700px"
-          alt="...">
+        <a href="#bridal-jewel-container">
+        <img src="../Images/Jewellery/bridal/pexels-baljit-johal-6387623.jpg" class="d-block w-100 img-fluid"
+          height="700px" alt="..."></a>
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h1>Bridal Jewellery</h1>
+
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="../Images/Jewellery/bridal/poster-ring.jpg" class="d-block w-100" alt="...">
+        <a href="#ring-jewel-container">
+        <img src="../Images/Jewellery/bridal/poster-ring.jpg" class="d-block w-100" alt="..."></a>
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h1>Rings</h1>
+         
         </div>
       </div>
+
+
       <div class="carousel-item">
+        <a href="#haldi-jewel-container">
         <img src="../Images/Jewellery/bridal/poster-haldi.jpg" class="d-block w-100" alt="...">
+        </a>
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h1>Haldi Jewellery</h1>
+         
         </div>
       </div>
+
+
       <div class="carousel-item">
+        <a href="#mehendi-jewel-container">
         <img src="../Images/Jewellery/bridal/poster-mehendi.jpg" class="d-block w-100" alt="...">
+      </a>
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h1>Mehendi Jewellery</h1>
+
         </div>
       </div>
 
 
-      <div class="carousel-item">
-        <img src="../Images/Jewellery/bridal/poster-ring.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -82,7 +171,7 @@
   </div>
 
 
-  <br><br><br><br><br><br><br><br>
+  <br><br>
 
 
   <div class="container m-5 ">
@@ -90,7 +179,8 @@
 
     <!-- BRIDAL JEWELLERY CONTAINER -->
     <div id="bridal-jewel-container" class="container m-5">
-      <div class="text-center fs-1">BRIDAL JEWELLERY</div>
+      <div class="text-center fs-1" style="color:#e72e77"
+      style="color:#e72e77">BRIDAL JEWELLERY</div>
       <div id="bridal-jewel-container" class="container mt-5">
         <!-- FIRST ROW -->
 
@@ -112,7 +202,7 @@
 
 
 
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               <img src="../Images/Jewellery/bridal/bj-2-1.jpg" class="card-img-top " height="500px" width="200px"
                 onmouseover="jewelimg21()" onmouseout="jewelimg22()" id="jewelImg2" alt="...">
@@ -127,7 +217,7 @@
 
 
 
-          <div class="col-lg-4 ">
+          <div class="col-md-4 ">
             <div class="card h-80 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
               <img src="../Images/Jewellery/bridal/bj-3-1.jpg" class="card-img-top " height="500px" width="200px"
                 onmouseover="jewelimg31()" onmouseout="jewelimg32()" id="jewelImg3" alt="...">
@@ -275,7 +365,8 @@
 
     <!-- RINGS -->
     <div id="ring-jewel-container" class="container m-5">
-      <div class="text-center fs-1">RINGS</div>
+      <div class="text-center fs-1" style="color:#e72e77"
+      style="color:#e72e77">RINGS</div>
       <div id="ring-jewel-container" class="container mt-5">
         <!-- FIRST ROW -->
         <div class="row">
@@ -392,7 +483,8 @@
     <!-- HALDI JEWELLERY CONTAINER -->
 
     <div id="haldi-jewel-container" class="container m-5">
-      <div class="text-center fs-1">HALDI JEWELLERY</div>
+      <div class="text-center fs-1" style="color:#e72e77"
+      style="color:#e72e77">HALDI JEWELLERY</div>
       <div id="haldi-jewel-container" class="container mt-5">
         <!-- FIRST ROW -->
         <div class="row">
@@ -491,8 +583,9 @@
 
     <!-- MEHENDI JEWELLERY CONTAINER -->
 
-    <div id="haldi-jewel-container" class="container m-5">
-      <div class="text-center fs-1">MEHENDI JEWELLERY</div>
+    <div id="mehendi-jewel-container" class="container m-5">
+      <div class="text-center fs-1" style="color:#e72e77"
+      style="color:#e72e77">MEHENDI JEWELLERY</div>
       <div id="haldi-jewel-container" class="container mt-5">
         <!-- FIRST ROW -->
         <div class="row">
@@ -604,286 +697,134 @@
 
 
 
+  <div class="col-lg-11">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer class=" text-center text-lg-start text-white">
+      <div class="container2 p-4">
+        <div class="row my-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+            <div class="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+              <img src="../Images/HomePage/LOGO WBG.png" height="180" alt=""
+                   loading="lazy" />
+              
+            </div>
+            <h2 class="LogoName ms-5">The Wedding <br> Story Book</h2>
+  
+            <p class="text-center2">"From Dreams To Reality: Let Us Plan Your Wedding"</p>
+  
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Our Services</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="./pages/Decoration.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Decoration
+                <img src="../Images/HomePage/DecoIcon.png" class="Icons" >
+              </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/Destination-Wedding.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Destination Wedding
+                  <img src="../Images/HomePage/DestIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/Photo-gallery.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Photo Gallery
+                  <img src="../Images/HomePage/PhotIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/MakeUp.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Makeup
+                  <img src="../Images/HomePage/MakeIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/Jewellery.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Jewellary
+                  <img src="../Images/HomePage/jwelIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/Bride-Groom-Cloth.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Bride Clothes
+                  <IMG src="../Images/HomePage/BRIDiCON.png" class="Icons" >
+                </a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Our Services</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="./pages/Vendor.html" class="text-white" style="text-decoration: none"><i class="fas fa-paw pe-3"></i>Vendors
+                  <img src="../Images/HomePage/VendIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/Halls.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Halls & Lawns
+                  <img src="../Images/HomePage/hallIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="./pages/The-wedding-card.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>E-Invites</a>
+                <img src="../Images/HomePage/InviIcon.png" class="Icons" >
+              </li>
+              <li class="mb-2">
+                <a href="./pages/AboutUs.html" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>About Us
+                  <img src="../Images/HomePage/AbouIcon.png" class="Icons" >
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#Home" class="text-white" style="text-decoration: none;"><i class="fas fa-paw pe-3"></i>Home
+                  <img src="../Images/HomePage/HomeIcon.png" class="Icons" >
+                </a>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contact</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <p><i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 33 Street, Nagpur</p>
+              </li>
+              <li>
+                <p><i class="fas fa-phone pe-2"></i>+ (555) 123-4567</p>
+              </li>
+              <li>
+                <p><i class="fas fa-envelope pe-2 mb-0"></i>info@weddingstorybook.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: black">
+        © 2023 Copyright:
+        <a class="text-white" href="http://theweddingstorybook.netlify.app">theweddingstorybook.netlify.app</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+  </div>
+  <!-- End of .container -->
 
   <script>
-    function jewelimg11() {
-      const jewelImg = document.getElementById("jewelImg1")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-1-2.jpg"
-    }
-
-
-    function jewelimg12() {
-      const jewelImg = document.getElementById("jewelImg1")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-1-1.jpg"
-    }
-
-
-
-    function jewelimg21() {
-      const jewelImg = document.getElementById("jewelImg2")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-2-2.jpg"
-    }
-
-
-    function jewelimg22() {
-      const jewelImg = document.getElementById("jewelImg2")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-2-1.jpg"
-    }
-
-    function jewelimg31() {
-      const jewelImg = document.getElementById("jewelImg3")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-3-1.jpg"
-    }
-
-
-    function jewelimg32() {
-      const jewelImg = document.getElementById("jewelImg3")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-3-2.jpg"
-    }
-
-
-
-    function jewelimg41() {
-      const jewelImg = document.getElementById("jewelImg4")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-4-1.jpg"
-    }
-
-
-    function jewelimg42() {
-      const jewelImg = document.getElementById("jewelImg4")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-4-2.jpg"
-    }
-
-
-    function jewelimg51() {
-      const jewelImg = document.getElementById("jewelImg5")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-5-2.jpg"
-    }
-
-
-    function jewelimg52() {
-      const jewelImg = document.getElementById("jewelImg5")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-5-1.jpg"
-    }
-
-
-    function jewelimg61() {
-      const jewelImg = document.getElementById("jewelImg6")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-6-1.jpg"
-    }
-
-
-    function jewelimg62() {
-      const jewelImg = document.getElementById("jewelImg6")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-6-2.jpg"
-    }
-
-
-
-    function jewelimg71() {
-      const jewelImg = document.getElementById("jewelImg7")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-7-1.jpg"
-    }
-
-
-    function jewelimg72() {
-      const jewelImg = document.getElementById("jewelImg7")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-7-2.jpg"
-    }
-
-
-    function jewelimg81() {
-      const jewelImg = document.getElementById("jewelImg8")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-8-1.jpg"
-    }
-
-
-    function jewelimg82() {
-      const jewelImg = document.getElementById("jewelImg8")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-8-2.jpg"
-    }
-
-    function jewelimg91() {
-      const jewelImg = document.getElementById("jewelImg9")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-9-1.jpg"
-    }
-
-
-    function jewelimg92() {
-      const jewelImg = document.getElementById("jewelImg9")
-      jewelImg.src = "../Images/Jewellery/bridal/bj-9-2.jpg"
-    }
-
-
-
-
-    // HALDI 
-
-    function haldimg11() {
-      const jewelImg = document.getElementById("haldiImg1")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-1-2.jpg"
-    }
-
-
-    function haldimg12() {
-      const jewelImg = document.getElementById("haldiImg1")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-1-1.jpg"
-    }
-
-
-    function haldimg21() {
-      const jewelImg = document.getElementById("haldiImg2")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-2-2.jpg"
-    }
-
-
-    function haldimg22() {
-      const jewelImg = document.getElementById("haldiImg2")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-2-1.jpg"
-    }
-
-
-    function haldimg31() {
-      const jewelImg = document.getElementById("haldiImg3")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-3-2.jpg"
-    }
-
-
-    function haldimg32() {
-      const jewelImg = document.getElementById("haldiImg3")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-3-1.jpg"
-    }
-
-
-
-    function haldimg41() {
-      const jewelImg = document.getElementById("haldiImg4")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-4-2.jpg"
-    }
-
-
-    function haldimg42() {
-      const jewelImg = document.getElementById("haldiImg4")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-4-1.jpg"
-    }
-
-    function haldimg51() {
-      const jewelImg = document.getElementById("haldiImg5")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-5-2.jpg"
-    }
-
-
-    function haldimg52() {
-      const jewelImg = document.getElementById("haldiImg5")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-5-1.jpg"
-    }
-
-
-    function haldimg61() {
-      const jewelImg = document.getElementById("haldiImg6")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-6-2.jpg"
-    }
-
-
-    function haldimg62() {
-      const jewelImg = document.getElementById("haldiImg6")
-      jewelImg.src = "../Images/Jewellery/haldi/hj-6-1.jpg"
-    }
-
-
-
-
-    // RINGS IMGS
-
-
-    function ringimg11() {
-      const jewelImg = document.getElementById("ringImg1")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-1-1.jpg"
-    }
-
-
-    function ringimg12() {
-      const jewelImg = document.getElementById("ringImg1")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-1-2.jpg"
-    }
-
-
-    function ringimg21() {
-      const jewelImg = document.getElementById("ringImg2")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-2-1.jpg"
-    }
-
-
-    function ringimg22() {
-      const jewelImg = document.getElementById("ringImg2")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-2-2.jpg"
-    }
-
-
-    function ringimg31() {
-      const jewelImg = document.getElementById("ringImg3")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-3-1.jpg"
-    }
-
-
-    function ringimg32() {
-      const jewelImg = document.getElementById("ringImg3")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-3-2.jpg"
-    }
-
-
-    function ringimg41() {
-      const jewelImg = document.getElementById("ringImg4")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-4-1.jpg"
-    }
-
-
-    function ringimg42() {
-      const jewelImg = document.getElementById("ringImg4")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-4-2.jpg"
-    }
-
-
-    function ringimg51() {
-      const jewelImg = document.getElementById("ringImg5")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-5-1.jpg"
-    }
-
-
-    function ringimg52() {
-      const jewelImg = document.getElementById("ringImg5")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-5-2.jpg"
-    }
-
-
-    function ringimg61() {
-      const jewelImg = document.getElementById("ringImg6")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-6-1.jpg"
-    }
-
-
-    function ringimg62() {
-      const jewelImg = document.getElementById("ringImg6")
-      jewelImg.src = "../Images/Jewellery/Rings/rj-6-2.jpg"
-    }
+   function Light() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "body";
+}
+
+function Dark() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "Dark";
+}
 
   </script>
 

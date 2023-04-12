@@ -2,36 +2,10 @@
     background-color: #ffebe8;
 }
  
-.Jewellery-container{
+ .Jewellery-container{
    
 
-}
-
-#bg-img{
-    display: flex;
-    flex-direction: column;
-    padding:3px 200px;
-    height: 658px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#bg-img::before{
-    content: "";
-    position: absolute;
-    background: url('../Images/Jewellery/banner_new1-new.jpg') no-repeat center center/cover;
-    height: 85vh;
-    top: 170px;
-    left: 0px;
-    margin-left: 45px;
-   
-    width: 1420px;
-    z-index: -1;
-    opacity: 1;
-    border-radius: 5px;
-   
-}
+} 
 
 .Slidesize{
     width: 70%;
@@ -40,4 +14,71 @@
     margin-right: auto;
 }
 
+.Dark{
+    color: white;
+    background-color: #212121;
+}
 
+.NavName{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F65A83;
+}
+
+.ulmarleft{
+    margin-left: 60px;
+}
+
+.ulmarleft2{
+    margin-left: 10px;
+}
+
+.nav-item:hover{
+    background-color: #F65A83;
+    transform: scale(1.1);
+}
+
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.Icons2{
+    height: 40px;
+}
+
+.lightbtn{
+    background-color: #F65A83;
+    color: #ffebe8;
+}
+
+.lightbtn:hover{
+    background-color: #08192b;
+    color: #ffebe8;
+}
+
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container2{
+    background-color: #08192b;
+    width: 100%;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.width-footer{
+    width: 100%;
+}
