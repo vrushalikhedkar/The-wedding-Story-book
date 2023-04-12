@@ -199,10 +199,14 @@ body {
     top: 2.5rem; left: 2.5rem;
     background: var(--primary);
     color: whitesmoke;
+    background-color: black;
     font-size: 1.7rem;
     padding: .5rem 1rem;
     border-radius: .5rem;
     text-transform: lowercase;
+}
+.room .slide .image .price:hover{
+    background-color: pink;
 }
 
 .room .slide .image .fa-shopping-cart{
@@ -216,11 +220,12 @@ body {
     background: var(--white);
     color: var(--black);
     border-radius: 50%;
+    background-color:whitesmoke;
 }
 
 .room .slide .image .fa-shopping-cart:hover{
     background: var(--secondary);
-    color: var(--white);
+    color:pink;
 }
 
 
