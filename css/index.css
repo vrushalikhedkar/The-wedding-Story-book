@@ -186,11 +186,12 @@ body{
 
 .ChecKwork{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration:dotted
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 
@@ -198,6 +199,8 @@ body{
     transform: scale(1.1);
     transition:1s ease;
 }
+
+
 
 .VendorbBTNRow{
     display: flex;
@@ -227,30 +230,26 @@ body{
     margin-bottom: 50px;
 }
 
-.Partners{
+.row2{
     background-color: #e8e8e8;
-    height: 400px;
-    display: block;
-    margin-bottom: 20px;
-    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 2px 2px 2px 2px #F65A83;
 }
 
 .PartHead{
+    font-size: 50px;
+    font-family: 600;
     color: black;
-    padding: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .PartIMG{
-    align-items: center;
-    height: 80px;
-    width: 200px;
-    margin-left: 80px;
-    margin-top: 50px;
+    height: 100px;
 }
 
 .ContRow{
