@@ -28,6 +28,10 @@ body{
     margin-left: 60px;
 }
 
+.ulmarleft2{
+    margin-left: 10px;
+}
+
 .nav-item:hover{
     background-color: #F65A83;
     transform: scale(1.1);
@@ -36,6 +40,10 @@ body{
 .Icons{
     height: 20px;
     margin-left: 10px;
+}
+
+.Icons2{
+    height: 40px;
 }
 
 .lightbtn{
@@ -53,6 +61,7 @@ body{
     background-image: url(../Images/HomePage/hand.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,20 +69,14 @@ body{
 
 .HandBox{
     height: 310px;
-    width: 750px;
-    margin-top: 180px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
 
 .HandName{
-    font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #ffebe8;
-    padding: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -261,10 +264,12 @@ body{
 }
 
 .ContactUS{
+    color: black;
     text-align: justify;
 }
 
 .ContactUSInfo{
+    color: black;
     font-size: 17px;
     font-weight: 600;
     font-family: serif;
@@ -277,37 +282,38 @@ body{
 }
 
 .InfoIcon{
+    color: black;
     font-size: 15px;
     font-weight: 600;
 }
 
 .ContBord{
+    border-radius: 50px;
+    background-color: #feaea3;
     border: 2px solid black;
 }
 
 .ContForm{
-    float: right;
-    margin-right: 100px;
     margin-top: 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
 .Contlabel{
+    color: black;
     margin-top: 10px;
 }
 
 .ContInput{
-    height: 35px;
-    width: 500px;
-    border-radius: 5px;
+    height: 45px;
+    font-weight: 600;
+    border-radius: 15px;
     background-color: #e8e8e8;
 }
 
 .ContInput2{
     height: 100px;
-    width: 500px;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #e8e8e8;
     text-align: left;
     align-items: start;
@@ -323,7 +329,7 @@ body{
     background-color: #ffebe8;
     padding: 5px;
     font-size: large;
-    width: 150px;
+    border-radius: 25px;
     font-weight: 600;
 }
 
@@ -331,10 +337,10 @@ body{
     background-color: #F65A83;
 }
 
-.LogoName{
+/* .LogoName{
     margin-left: 60px;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 .text-center2{
     font-size: 20px;

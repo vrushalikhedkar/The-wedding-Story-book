@@ -1,17 +1,11 @@
 .body {
     background-color: #ffebe8;
 }
- 
- .Jewellery-container{
-   
 
-} 
-
-.Slidesize{
-    width: 70%;
+.Slidesize1{
+    
+    width: 80%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-
-
