@@ -11,73 +11,77 @@
    
   </style>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top ">
-        <div class="container-fluid">
-     
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" aria-current="page" href="../index.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    Home
-                  </font>
-                  <img src="../Images/HomePage/HomeIcon.png" class="Icons">
-                </a>
-              </li>
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" href="../pages/Decoration.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    Decoration
-                  </font>
-                  <img src="../Images/HomePage/DecoIcon.png" class="Icons">
-                </a>
-              </li>
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" href="../pages/Destination-Wedding.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    Destination Wedding
-                  </font>
-                  <img src="../Images/HomePage/DestIcon.png" class="Icons">
-                </a>
-              </li>
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" href="../pages/The-wedding-card.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    E-Invites 💌
-                  </font>
-                </a>
-              </li>
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" href="../pages/AboutUs.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    About Us
-                  </font>
-                  <img src="../Images/HomePage/AbouIcon.png" class="Icons">
-                </a>
-              </li>
-              <li class="nav-item ulmarleft">
-                <a class="nav-link active" href="../pages/Login.html">
-                  <font
-                    style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
-                    Login
-                  </font>
-                  <img src="../Images/HomePage/logicon.png" class="Icons">
-                </a>
-              </li>
-            </ul>
-          </div>
+  <body class="body" id="DarkMode">
+    <nav class="navbar navbar-expand-lg fixed-top" id="Home">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">
+          <img src="./Images/HomePage/LOGO.png" alt="TheWeddingStoryBook" width="80" height="80">
+        </a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" aria-current="page" href="index.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  Home
+                </font>
+                <img src="../Images/HomePage/HomeIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" href="./pages/Decoration.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  Decoration
+                </font>
+                <img src="../Images/HomePage/DecoIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" href="./pages/Destination-Wedding.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  Destination Wedding
+                </font>
+                <img src="../Images/HomePage/DestIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" href="./pages/The-wedding-card.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  E-Invites 💌
+                </font>
+              </a>
+            </li>
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" href="./pages/AboutUs.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  About Us
+                </font>
+                <img src="../Images/HomePage/AbouIcon.png" class="Icons" >
+              </a>
+            </li>
+            <li class="nav-item ulmarleft">
+              <a class="nav-link active" href="./pages/Login.html">
+                <font class="NavName"
+                  style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                  Login
+                </font>
+                <img src="../Images/HomePage/logicon.png" class="Icons" >
+              </a>
+            </li>
+            <button class="NavName ulmarleft lightbtn" onclick="Light()">Light</button>
+            <button class="NavName ulmarleft lightbtn" onclick="Dark()">Dark</button>
+            </ul> 
         </div>
-      </nav> 
+      </div>
+    </nav>
       
       <br><br><br>
    <div class="card text-bg-dark">
