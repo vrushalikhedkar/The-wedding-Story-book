@@ -55,7 +55,7 @@ body{
     padding: 5px;
     border-radius: 20px;
     margin: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
     background-color: #FFE5F1;
 }
 .Destination-btn:hover{
@@ -74,10 +74,11 @@ body{
 }
 
 .container-title{
+    margin-bottom: 30px;
+    margin-top: 30px;
     font-size: 50px;
     color: #F65A83;
     text-align: center;
-    margin-top: 100px;
     font-family:Brush script MT , Brush Script Std, cursive;
 }
 .inner{
@@ -139,7 +140,7 @@ body{
 
 .container-title-2{
     font-size: 50px;
-    color: #F653A8;
+    color: white;
     text-align: center;
     margin: 40px;
     font-family:Brush script MT , Brush Script Std, cursive;
@@ -193,6 +194,24 @@ body{
 .last-btn{
     padding-top: 5px;
     color:black;
+}
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.class{
+    width: 100%;
 }
 
 

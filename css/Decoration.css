@@ -160,3 +160,21 @@ body h3 {
     padding-top: 5px;
     color:black;
 }
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.class{
+    width: 100%;
+}

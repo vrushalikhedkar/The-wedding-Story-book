@@ -1,3 +1,14 @@
+function Light() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "body";
+}
+
+function Dark() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "Dark";
+}
+
+
 function setNewImage0(){
     document.getElementById("img0").src ="../Images/Destination-Wedding-img/Goa-client/img-3-3.jpeg";
 
