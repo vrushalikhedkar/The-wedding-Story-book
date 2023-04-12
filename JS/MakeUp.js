@@ -139,4 +139,12 @@ function imgOut14() {
     imgElement.src = "../Images/MakeUpImg/engagement-3.jpg";
 }
 
+function Light() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "body";
+}
 
+function Dark() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "Dark";
+}

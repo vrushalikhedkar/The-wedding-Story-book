@@ -1,98 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+<html>
+    <head>
+        <title>
+            About Us
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    
-</head>
-<body>
-    
-  
-    
-     <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col-md-4 ">
-             
-                <div class="card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="../Images/Images of About/Sid.jpeg" height="350px" class=" card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title "> Sidhharth  </h3>
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        <link href="../css/aboutus.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top" >
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" aria-current="page" href="../index.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        Home
+                      </font>
+                      <img src="../Images/HomePage/HomeIcon.png" class="Icons" >
+                    </a>
+                  </li>
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Decoration.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        Decoration
+                      </font>
+                      <img src="../Images/HomePage/DecoIcon.png" class="Icons" >
+                    </a>
+                  </li>
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Destination-Wedding.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        Destination Wedding
+                      </font>
+                      <img src="../Images/HomePage/DestIcon.png" class="Icons" >
+                    </a>
+                  </li>
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/The-wedding-card.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        E-Invites 💌
+                      </font>
+                    </a>
+                  </li>
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/AboutUs.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        About Us
+                      </font>
+                      <img src="../Images/HomePage/AbouIcon.png" class="Icons" >
+                    </a>
+                  </li>
+                  <li class="nav-item ulmarleft">
+                    <a class="nav-link active" href="../pages/Login.html">
+                      <font class="NavName"
+                        style="font-weight: bolder; font-family: Playfair Display,Helvetica Neue,Helvetica,Arial,sans-serif!important;">
+                        Login
+                      </font>
+                      <img src="../Images/HomePage/logicon.png" class="Icons" >
+                    </a>
+                  </li>
+                  <button class="NavName ulmarleft lightbtn" style="border-style: 1px #ffebe8;" onclick="Light()">
+                    <img src="../Images/HomePage/sun.png" class="Icons2">
+                  </button>
+                  <button class="NavName ulmarleft2 lightbtn" onclick="Dark()">
+                    <img src="../Images/HomePage/dark.png" class="Icons2" >
+                  </button>
+                  </ul> 
+              </div>
+            </div>
+          </nav>
 
+
+        <div class="row col-lg-12 mt-5">
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/Vrushali.jfif" class="img-fluid">
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">VRUSHALI KHEDKAR</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">A visionary and charismatic group leader who inspires, empowers, and guides team members to achieve remarkable results through effective communication and strategic decision-making.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
 
-            <div class=" col-md-4">
-                <div class="img1 card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="../Images/Images of About/swapnil.jpg" height="300px" class=" card-img-top"  alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Swapnil</h3>
-
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/Siddhant.jpg" class="img-fluid" >
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">SIDDHANT BAGUL</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">A compassionate and reliable team player who offers unwavering support, fosters collaboration, and promotes a positive and inclusive work environment.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
 
-
-            <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="..." height="350px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title"></h3>
-
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card ">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/Ankita.jfif" class="img-fluid" >
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">ANKITA PAWAR</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">A dedicated and approachable team player who consistently goes above and beyond to support colleagues, provide guidance, and ensure the team's success through their collaborative approach.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
-
         </div>
-    </div>
 
+        <div class="row col-lg-12">
 
-    <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col-md-4 ">
-                
-                <div class="card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="..." height="350px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title "> </h3>
-
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card ">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/YOGITA.jpg" class="img-fluid" >
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">YOGITA SHETE</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">An innovative and imaginative team member who brings fresh perspectives, generates unique ideas, and contributes creatively to solve challenges and drive team success.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
 
-            <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="..." height="350px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title"></h3>
-
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card ">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/Swapnil.jpeg" height="200px" >
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">SWAPNIL SALUNKE</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">A friendly and open-minded team member who is easy to approach, listens attentively, and fosters a welcoming environment for collaboration and communication among team members.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
 
-
-            <div class="col-md-4">
-                <div class="card shadow p-3 mb-5 bg-body-tertiary ">
-                    <img src="..." height="350px" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title"></h3>
-
+            <div class="col-lg-2 m-5 p-3 col-md-4 m-5 p-3 col-sm-8 m-5 p-3 col-xs-10 m-5 p-3">
+                <article class="card ">
+                    <div class="temporary_text">
+                        <img src="../Images/HomePage/pushpak.png" class="img-fluid" >
                     </div>
-
+                <div class="card_content">
+                    <span class="card_title">PUSHPAK PARKHE</span>
+                        <span class="card_subtitle">Front End Developer</span>
+                        <p class="card_description">A diligent and perceptive team member who pays keen attention to details, actively listens, and contributes thoughtfully to team discussions and decision-making processes.</p>
+                        <a href="https://instagram.com/mr_siddhant_bagul?igshid=ZDdkNTZiNTM=" >
+                            <img src="../Images/HomePage/instagram.png" height="30px" class="col ms-2">
+                        </a>
+                        <a href="https://github.com/Mr-Siddhant-Bagul" >
+                            <img src="../Images/HomePage/github.png" height="30px"  class="col ms-2">
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddhant-bagul-6878501a0" >
+                            <img src="../Images/HomePage/linkedin.png" height="30px"  class="col ms-2">
+                        </a>
                 </div>
+                </article>
             </div>
-
         </div>
-    </div> 
 
-    
-</body>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous">
+        </script>
+    </body>
 </html>
