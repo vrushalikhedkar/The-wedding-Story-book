@@ -59,4 +59,17 @@
     color: #ffebe8;
 }
 
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
 
+.container{
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
