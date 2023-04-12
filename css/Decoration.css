@@ -1,23 +1,54 @@
-body {
+    body {
     background-color: #ffebe8;
-}
-.navbar{
-    background-color: #F65A83;
-}
-
-.ulmarleft{
-    margin-left: 80px;
-}
-
-.nav-item:hover{
-    background-color: #F65A83;
-    transform: scale(1.1);
-}
-
-.Icons{
-    height: 20px;
-    margin-left: 10px;
-}
+    }
+    .Dark{
+        color: white;
+        background-color: #212121;
+    }
+    
+    .NavName{
+        color: whitesmoke;
+        font-size: 20px;
+        font-family: 'Bree Serif', serif;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F65A83;
+    }
+    
+    .ulmarleft{
+        margin-left: 60px;
+    }
+    
+    .ulmarleft2{
+        margin-left: 10px;
+    }
+    
+    .nav-item:hover{
+        background-color: #F65A83;
+        transform: scale(1.1);
+    }
+    
+    .Icons{
+        height: 20px;
+        margin-left: 10px;
+    }
+    
+    .Icons2{
+        height: 40px;
+    }
+    
+    .lightbtn{
+        background-color: #F65A83;
+        color: #ffebe8;
+    }
+    
+    .lightbtn:hover{
+        background-color: #08192b;
+        color: #ffebe8;
+    }
 
 .top-heading {
     color: #F65A83;
@@ -100,4 +131,50 @@ body h3 {
 .inner:hover img {
     transform: scale(1.5);
     /* scale = increase the size of image */
+}
+.ScrollToTop{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.scroll-top{
+    background-color: #ffebe8;
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    position: fixed; 
+    bottom: 10px;
+    border-radius: 20px;
+    z-index: 10;
+    margin-left: 20px;
+    
+}
+
+.scroll-top:hover{
+    background-color: #e72e77;
+    color:white
+    
+}
+
+.last-btn{
+    padding-top: 5px;
+    color:black;
+}
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.class{
+    width: 100%;
 }

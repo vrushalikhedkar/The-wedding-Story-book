@@ -91,3 +91,44 @@ border-radius: 10px;
     align-items: center;
     text-align: center; */
 }
+
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    background-color: #08192b;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.class{
+    width: 100%;
+}
+
+
+
+
+.Icons{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.Icons2{
+    height: 40px;
+}
+
+.lightbtn{
+    background-color: #F65A83;
+    color: #ffebe8;
+}
+
+.lightbtn:hover{
+    background-color: #08192b;
+    color: #ffebe8;
+}
