@@ -334,3 +334,35 @@ function imgOut33() {
     const imgElement = document.getElementById("img33");
     imgElement.src = "../Images/Mehendi/vow.jpg";
 }
+
+function  imgIn34() {
+    const imgElement = document.getElementById("img34");
+    imgElement.src = "../Images/Mehendi/combine js.jpg";
+}
+
+function imgOut34() {
+    const imgElement = document.getElementById("img34");
+    imgElement.src = "../Images/Mehendi/combine.jpg";
+}
+
+
+function  imgIn35() {
+    const imgElement = document.getElementById("img35");
+    imgElement.src = "../Images/Mehendi/symmetric js.jpg";
+}
+
+function imgOut35() {
+    const imgElement = document.getElementById("img35");
+    imgElement.src = "../Images/Mehendi/symmetric.jpg";
+}
+
+
+function  imgIn36() {
+    const imgElement = document.getElementById("img36");
+    imgElement.src = "../Images/Mehendi/fancy js.jpg";
+}
+
+function imgOut36() {
+    const imgElement = document.getElementById("img36");
+    imgElement.src = "../Images/Mehendi/fancy.jpg";
+}
