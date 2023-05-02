@@ -96,3 +96,37 @@ body h3 {
     display: flex;
     flex-flow: row-reverse wrap;
 }
+
+
+.scroll-top{
+    background-color: #ffebe8;
+    border: 1px solid black;
+    height: 40px;
+    width: 120px;
+    position: fixed; 
+    bottom: 30px;
+    border-radius: 20px;
+    z-index: 10;
+    
+}
+
+.scroll-top:hover{
+    background-color: #e72e77;
+    color:white
+    
+}
+
+.last-btn{
+    padding-top: 5px;
+    color:black;
+}
+.text-center2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-2{
+    background-color: #08192b;
+}
+
