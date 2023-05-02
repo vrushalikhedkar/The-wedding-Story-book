@@ -130,3 +130,38 @@ body h3 {
     background-color: #08192b;
 }
 
+.CardsRow{
+    align-items: center;
+    justify-content: center;
+}
+
+.text-white{
+    color: black;
+    font-weight: 600;
+}
+
+.class{
+    width: 100%;
+}
+.text-container{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    
+   text-justify: auto;
+   color: black;
+  
+}
+.images-container{
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.images{
+    margin-left: 5px;
+    height: 250px;
+}
+
