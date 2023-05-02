@@ -162,3 +162,35 @@ function  imgIn17() {
     const imgElement = document.getElementById("img17");
     imgElement.src = "../Images/Mehendi/groom 3 js.jpg";
 }
+
+
+function imgOut17() {
+    const imgElement = document.getElementById("img17");
+    imgElement.src = "../Images/Mehendi/groom31.jpg";
+}
+
+function  imgIn18() {
+    const imgElement = document.getElementById("img18");
+    imgElement.src = "../Images/Mehendi/peacock js.jpg";
+}
+
+function imgOut18() {
+    const imgElement = document.getElementById("img18");
+    imgElement.src = "../Images/Mehendi/peacock-design.jpg";
+}
+
+
+function  imgIn19() {
+    const imgElement = document.getElementById("img19");
+    imgElement.src = "../Images/Mehendi/sequence js.jpg";
+}
+
+function imgOut19() {
+    const imgElement = document.getElementById("img19");
+    imgElement.src = "../Images/Mehendi/sequence.jpg";
+}
+
+function  imgIn20() {
+    const imgElement = document.getElementById("img20");
+    imgElement.src = "../Images/Mehendi/back hand js.jpg";
+}
