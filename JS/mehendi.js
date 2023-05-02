@@ -109,3 +109,31 @@ function imgOut11() {
     const imgElement = document.getElementById("img11");
     imgElement.src = "../Images/Mehendi/full-braat1.jpg";
 }
+
+
+function imgIn12() {
+    const imgElement = document.getElementById("img12");
+    imgElement.src = "../Images/Mehendi/full fingure js.jpg";
+}
+function imgOut12() {
+    const imgElement = document.getElementById("img12");
+    imgElement.src = "../Images/Mehendi/black1.jpg";
+}
+
+function imgIn13() {
+    const imgElement = document.getElementById("img13");
+    imgElement.src = "../Images/Mehendi/black finger js.jpg";
+}
+function imgOut13() {
+    const imgElement = document.getElementById("img13");
+    imgElement.src = "../Images/Mehendi/black-fingur.jpg";
+}
+
+function imgIn14() {
+    const imgElement = document.getElementById("img14");
+    imgElement.src = "../Images/Mehendi/red js.jpg";
+}
+function imgOut14() {
+    const imgElement = document.getElementById("img14");
+    imgElement.src = "../Images/Mehendi/red-mehendi1.jpg";
+}
