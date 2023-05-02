@@ -225,3 +225,29 @@ function  imgIn23() {
     const imgElement = document.getElementById("img23");
     imgElement.src = "../Images/Mehendi/bride-with-groom-js.jpg";
 }
+
+function imgOut23() {
+    const imgElement = document.getElementById("img23");
+    imgElement.src = "../Images/Mehendi/bride with groom.jpg";
+}
+
+function  imgIn24() {
+    const imgElement = document.getElementById("img24");
+    imgElement.src = "../Images/Mehendi/simple js.jpg";
+}
+
+function imgOut24() {
+    const imgElement = document.getElementById("img24");
+    imgElement.src = "../Images/Mehendi/simple.jpg";
+}
+
+
+function  imgIn25() {
+    const imgElement = document.getElementById("img25");
+    imgElement.src = "../Images/Mehendi/mordern js.jpg";
+}
+
+function imgOut25() {
+    const imgElement = document.getElementById("img25");
+    imgElement.src = "../Images/Mehendi/mordern-design.jpg";
+}
