@@ -57,3 +57,42 @@ body{
     color: #ffebe8;
 }
   
+
+.Slidesize{
+    display: flex; 
+    margin-top: 70px;
+    float: left;
+
+}
+
+.div-1{
+    display:flex;
+    background-color: #f1b5c5;
+}
+
+
+
+.img-1{
+  height: 490px;
+}
+
+.img-3{
+    height: 450px;
+}
+
+body h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 43px;
+    color: #ec6f91;
+
+    font-weight: bold;
+}
+.title-right{
+    font-size: 100px;
+    font-family:Brush script MT , Brush Script Std, cursive;
+}
+.ScrollToTop{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
