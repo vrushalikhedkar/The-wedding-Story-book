@@ -137,3 +137,28 @@ function imgOut14() {
     const imgElement = document.getElementById("img14");
     imgElement.src = "../Images/Mehendi/red-mehendi1.jpg";
 }
+
+function  imgIn15() {
+    const imgElement = document.getElementById("img15");
+    imgElement.src = "../Images/Mehendi/groom 1js.jpg";
+}
+
+function imgOut15() {
+    const imgElement = document.getElementById("img15");
+    imgElement.src = "../Images/Mehendi/groom-design1.jpg";
+}
+
+function  imgIn16() {
+    const imgElement = document.getElementById("img16");
+    imgElement.src = "../Images/Mehendi/groom 2 js.jpg";
+}
+
+function imgOut16() {
+    const imgElement = document.getElementById("img16");
+    imgElement.src = "../Images/Mehendi/groom2.jpg";
+}
+
+function  imgIn17() {
+    const imgElement = document.getElementById("img17");
+    imgElement.src = "../Images/Mehendi/groom 3 js.jpg";
+}
