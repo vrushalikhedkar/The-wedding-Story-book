@@ -51,3 +51,33 @@ function imgOut5() {
     const imgElement = document.getElementById("img5");
     imgElement.src = "https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1528358098_new_mehe.jpg";
 }
+
+
+function imgIn6() {
+    const imgElement = document.getElementById("img6");
+    imgElement.src = "../Images/Mehendi/bridal js.jpg";
+}
+function imgOut6() {
+    const imgElement = document.getElementById("img6");
+    imgElement.src = "https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2017/09/1493537534_IMG_5025.jpg";
+}
+
+
+function imgIn7() {
+    const imgElement = document.getElementById("img7");
+    imgElement.src = "../Images/Mehendi/floral js.jpg";
+}
+function imgOut7() {
+    const imgElement = document.getElementById("img7");
+    imgElement.src = "https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1541098751_cor_2540.jpg";
+}
+
+
+function imgIn8() {
+    const imgElement = document.getElementById("img8");
+    imgElement.src = "../Images/Mehendi/artjs.jpg";
+}
+function imgOut8() {
+    const imgElement = document.getElementById("img8");
+    imgElement.src = "https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1-4.jpg";
+}
