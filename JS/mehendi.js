@@ -366,3 +366,33 @@ function imgOut36() {
     const imgElement = document.getElementById("img36");
     imgElement.src = "../Images/Mehendi/fancy.jpg";
 }
+
+
+function  imgIn37() {
+    const imgElement = document.getElementById("img37");
+    imgElement.src = "../Images/Mehendi/front hand js.jpg";
+}
+
+function imgOut37() {
+    const imgElement = document.getElementById("img37");
+    imgElement.src = "../Images/Mehendi/front hand fancy.jpg";
+}
+
+
+function  imgIn38() {
+    const imgElement = document.getElementById("img38");
+    imgElement.src = "../Images/Mehendi/back fancy js.jpg";
+}
+
+function imgOut38() {
+    const imgElement = document.getElementById("img38");
+    imgElement.src = "../Images/Mehendi/back hand fancy.jpg";
+}
+
+
+
+function Light() {
+    const Element = document.getElementById("DarkMode");
+    Element.className = "body";
+}
+
