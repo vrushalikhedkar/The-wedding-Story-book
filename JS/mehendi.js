@@ -81,3 +81,31 @@ function imgOut8() {
     const imgElement = document.getElementById("img8");
     imgElement.src = "https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1-4.jpg";
 }
+
+
+function imgIn9() {
+    const imgElement = document.getElementById("img9");
+    imgElement.src = "../Images/Mehendi/arebic js.jpg";
+}
+function imgOut9() {
+    const imgElement = document.getElementById("img9");
+    imgElement.src = "../Images/Mehendi/arebic-mehendi.jpg";
+}
+
+function imgIn10() {
+    const imgElement = document.getElementById("img10");
+    imgElement.src = "../Images/Mehendi/jwellery js.jpg";
+}
+function imgOut10() {
+    const imgElement = document.getElementById("img10");
+    imgElement.src = "../Images/Mehendi/jwellery-design.jpg";
+}
+
+function imgIn11() {
+    const imgElement = document.getElementById("img11");
+    imgElement.src = "../Images/Mehendi/full barat js.jpg";
+}
+function imgOut11() {
+    const imgElement = document.getElementById("img11");
+    imgElement.src = "../Images/Mehendi/full-braat1.jpg";
+}
