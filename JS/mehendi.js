@@ -276,3 +276,28 @@ function  imgIn28() {
     const imgElement = document.getElementById("img28");
     imgElement.src = "../Images/Mehendi/back hand jaali js.jpg";
 }
+
+function imgOut28() {
+    const imgElement = document.getElementById("img28");
+    imgElement.src = "../Images/Mehendi/back hand jaali.jpg";
+}
+
+function imgIn29() {
+    const imgElement = document.getElementById("img29");
+    imgElement.src = "../Images/Mehendi/floral-dulhan js.jpg";
+}
+
+function imgOut29() {
+    const imgElement = document.getElementById ("img29");
+    imgElement.src = "../Images/Mehendi/floral-dulhan.jpg";
+}
+
+function  imgIn30() {
+    const imgElement = document.getElementById("img30");
+    imgElement.src = "../Images/Mehendi/traditional js.jpg";
+}
+
+function imgOut30() {
+    const imgElement = document.getElementById("img30");
+    imgElement.src = "../Images/Mehendi/traditional.jpg";
+}
