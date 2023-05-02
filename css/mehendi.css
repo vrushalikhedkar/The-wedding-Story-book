@@ -165,3 +165,59 @@ body h3 {
     height: 250px;
 }
 
+.card-slide-area{
+    padding: 10px;
+    border: white 15px solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-top:60px ;
+    }
+    
+    .image-block{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    
+    
+    
+    
+    /* .Icons{
+        height: 20px;
+        margin-left: 10px;
+    }
+    
+    .Icons2{
+        height: 40px;
+    }
+    
+    .lightbtn{
+        background-color: #F65A83;
+        color: #ffebe8;
+    }
+    
+    .lightbtn:hover{
+        background-color: #08192b;
+        color: #ffebe8;
+    } */
+
+      #img6{
+        height:450px;
+      }
+
+      #img7{
+        height:450px;
+      }
+
+      #img8{
+        height:450px;
+      }
+     
+      #img9{
+        height:450px;
+      }
+
+      #img10{
+        height:450px;
+      }
