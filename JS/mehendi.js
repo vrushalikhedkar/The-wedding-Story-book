@@ -301,3 +301,36 @@ function imgOut30() {
     const imgElement = document.getElementById("img30");
     imgElement.src = "../Images/Mehendi/traditional.jpg";
 }
+
+
+function  imgIn31() {
+    const imgElement = document.getElementById("img31");
+    imgElement.src = "../Images/Mehendi/pakistani js.jpg";
+}
+
+function imgOut31() {
+    const imgElement = document.getElementById("img31");
+    imgElement.src = "../Images/Mehendi/Eid.jpg";
+}
+
+
+function  imgIn32() {
+    const imgElement = document.getElementById("img32");
+    imgElement.src = "../Images/Mehendi/tradition of js.jpg";
+}
+
+function imgOut32() {
+    const imgElement = document.getElementById("img32");
+    imgElement.src = "../Images/Mehendi/tradion of rajastan.jpg";
+}
+
+
+function  imgIn33() {
+    const imgElement = document.getElementById("img33");
+    imgElement.src = "../Images/Mehendi/vow js.jpg";
+}
+
+function imgOut33() {
+    const imgElement = document.getElementById("img33");
+    imgElement.src = "../Images/Mehendi/vow.jpg";
+}
