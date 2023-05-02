@@ -194,3 +194,34 @@ function  imgIn20() {
     const imgElement = document.getElementById("img20");
     imgElement.src = "../Images/Mehendi/back hand js.jpg";
 }
+
+function  imgOut20() {
+    const imgElement = document.getElementById("img20");
+    imgElement.src = "../Images/Mehendi/back-hand3.jpg";
+}
+
+function imgIn21() {
+    const imgElement = document.getElementById("img21");
+    imgElement.src = "../Images/Mehendi/rajastani js.jpg";
+}
+
+function  imgOut21() {
+    const imgElement = document.getElementById("img21");
+    imgElement.src = "../Images/Mehendi/rajastani.jpg";
+}
+
+
+function  imgIn22() {
+    const imgElement = document.getElementById("img22");
+    imgElement.src = "../Images/Mehendi/flower js.jpg";
+}
+
+function imgOut22() {
+    const imgElement = document.getElementById("img22");
+    imgElement.src = "../Images/Mehendi/flower-design.jpg";
+}
+
+function  imgIn23() {
+    const imgElement = document.getElementById("img23");
+    imgElement.src = "../Images/Mehendi/bride-with-groom-js.jpg";
+}
