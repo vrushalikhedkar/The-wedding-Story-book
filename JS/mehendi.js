@@ -251,3 +251,28 @@ function imgOut25() {
     const imgElement = document.getElementById("img25");
     imgElement.src = "../Images/Mehendi/mordern-design.jpg";
 }
+
+function  imgIn26() {
+    const imgElement = document.getElementById("img26");
+    imgElement.src = "../Images/Mehendi/simple black js.jpg";
+}
+
+function imgOut26() {
+    const imgElement = document.getElementById("img26");
+    imgElement.src = "../Images/Mehendi/simple back.jpg";
+}
+
+function imgIn27() {
+    const imgElement = document.getElementById("img27");
+    imgElement.src = "../Images/Mehendi/full cover js.jpg";
+}
+
+function imgOut27() {
+    const imgElement = document.getElementById("img27");
+    imgElement.src = "../Images/Mehendi/full-cover.jpg";
+}
+
+function  imgIn28() {
+    const imgElement = document.getElementById("img28");
+    imgElement.src = "../Images/Mehendi/back hand jaali js.jpg";
+}
